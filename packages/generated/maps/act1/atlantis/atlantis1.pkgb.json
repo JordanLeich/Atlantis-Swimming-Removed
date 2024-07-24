@@ -1,0 +1,533 @@
+{
+    "packagedef": {
+        "combat_is": {
+            "filename": "on"
+        },
+        "bigconvmap": {
+            "filename": "on"
+        },
+        "model": {
+            "filename": "maps/act1/atlantis/atlantis1"
+        },
+        "shadow": {
+            "filename": "maps/act1/atlantis/atlantis1",
+            "plat": 40
+        },
+        "shared_powerups": {
+            "filename": "data/shared_powerups"
+        },
+        "xml": {
+            "filename": "data/npcstat"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/atlantis1_open"
+        },
+        "model": {
+            "filename": "HUD/hud_head_2101"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/start_conv_done"
+        },
+        "model": {
+            "filename": "HUD/hud_head_0000"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/atlantis1c"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_020_alt"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_010"
+        },
+        "texture": {
+            "filename": "textures/bubble"
+        },
+        "effect": {
+            "filename": "base/misc/under_water"
+        },
+        "effect": {
+            "filename": "base/misc/under_water_stroke"
+        },
+        "model": {
+            "filename": "HUD/hud_head_12001"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/attack_catwalk"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_027"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_025"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_030"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_040"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/end_namor_in_bubble_convo"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_050"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_055"
+        },
+        "model": {
+            "filename": "HUD/hud_head_15501"
+        },
+        "model": {
+            "filename": "HUD/hud_head_6301"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/namor_sleep_new"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/openbubbleb_new"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_060b"
+        },
+        "model": {
+            "filename": "HUD/hud_head_0801"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/namor_sleep"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_062b"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_060"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_060a"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/openbubbleb"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_062"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_062a"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_070"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/namor_wake"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/completed_kelp"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_080"
+        },
+        "model": {
+            "filename": "HUD/hud_head_1101"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_082"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/atlantis1b"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/injected"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/encounter1_end"
+        },
+        "actoranimdb": {
+            "filename": "63_namor"
+        },
+        "actorskin": {
+            "filename": 6301
+        },
+        "actoranimdb": {
+            "filename": "155_namorita"
+        },
+        "actorskin": {
+            "filename": 15501
+        },
+        "actoranimdb": {
+            "filename": "121_atlantean_champion"
+        },
+        "actorskin": {
+            "filename": 12101
+        },
+        "model": {
+            "filename": "HUD/hud_head_12101"
+        },
+        "texture": {
+            "filename": "textures/water_wash"
+        },
+        "effect": {
+            "filename": "char/atlc/p1_power"
+        },
+        "texture": {
+            "filename": "textures/spots5"
+        },
+        "effect": {
+            "filename": "char/atlc/p2_power"
+        },
+        "texture": {
+            "filename": "textures/misc_rune"
+        },
+        "effect": {
+            "filename": "char/atlc/p3_power"
+        },
+        "model": {
+            "filename": "models/bolton/atlantean_champion_spear"
+        },
+        "model": {
+            "filename": "models/bolton/atlantean_champion_shield"
+        },
+        "effect": {
+            "filename": "char/atlc/weapon_death"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_onehanded"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_onehanded_4_121_atlantean_champion"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_onehanded_4_122_atlantean_defender"
+        },
+        "xml": {
+            "filename": "data/weapons/wp_atlanteanchampion_spear"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_villain_fast"
+        },
+        "actoranimdb": {
+            "filename": "122_atlantean_defender"
+        },
+        "actorskin": {
+            "filename": 12201
+        },
+        "model": {
+            "filename": "HUD/hud_head_12201"
+        },
+        "effect": {
+            "filename": "char/atld/p1_power"
+        },
+        "effect": {
+            "filename": "char/atld/p2_power"
+        },
+        "effect": {
+            "filename": "char/atld/p3_power"
+        },
+        "effect": {
+            "filename": "char/atld/p4_power"
+        },
+        "effect": {
+            "filename": "char/atld/p4_impact"
+        },
+        "sound": {
+            "filename": "char/atld_m/p4_impact"
+        },
+        "xml": {
+            "filename": "data/entities/ents_atlanteandefender"
+        },
+        "effect": {
+            "filename": "char/atld/special_resurrect"
+        },
+        "model": {
+            "filename": "models/bolton/atlantean_defender_sword_right"
+        },
+        "model": {
+            "filename": "models/bolton/atlantean_defender_sword_left"
+        },
+        "effect": {
+            "filename": "char/atld/weapon_death"
+        },
+        "xml": {
+            "filename": "data/weapons/wp_atlanteandefender_swords"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_villain"
+        },
+        "model": {
+            "filename": "models/atlantis/breathing_tank_sh_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/column_01_5x20_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/column_arch_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/column_slab_20ft_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/console_water_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/door_coral_grate_atl_d"
+        },
+        "model": {
+            "filename": "models/atlantis/door_hatch_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/roof_20x10_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/u_force_field_bubble_atl_a"
+        },
+        "model": {
+            "filename": "models/pickups/action_figure_blackpanther"
+        },
+        "script": {
+            "filename": "scripts/common/actionfigures/blackpanther"
+        },
+        "effect": {
+            "filename": "base/misc/techstation_focus"
+        },
+        "model": {
+            "filename": "models/pickups/focus_pickup"
+        },
+        "model": {
+            "filename": "models/chunks/met_6"
+        },
+        "texture": {
+            "filename": "textures/nextgen/lightning_single",
+            "plat": 40
+        },
+        "effect": {
+            "filename": "base/material/break/brk_electric"
+        },
+        "model": {
+            "filename": "models/heli_carrier/console_01_heli_b"
+        },
+        "sound": {
+            "filename": "death_style/ds_electrical_m"
+        },
+        "model": {
+            "filename": "models/heli_carrier/door_01_heli_d"
+        },
+        "model": {
+            "filename": "models/heli_carrier/pipe_10x20_heli_e"
+        },
+        "model": {
+            "filename": "models/heli_carrier/pipe_5x20_heli_e"
+        },
+        "texture": {
+            "filename": "textures/chunks/metal_2",
+            "plat": 23
+        },
+        "model": {
+            "filename": "models/chunks/met_4",
+            "plat": 23
+        },
+        "model": {
+            "filename": "models/chunks/metal_generic_lrg",
+            "plat": 40
+        },
+        "model": {
+            "filename": "models/chunks/metal_generic_med_1",
+            "plat": 40
+        },
+        "model": {
+            "filename": "models/chunks/metal_generic_sml_1",
+            "plat": 40
+        },
+        "model": {
+            "filename": "models/chunks/metal_generic_med_3",
+            "plat": 40
+        },
+        "effect": {
+            "filename": "base/material/break/brk_metal"
+        },
+        "model": {
+            "filename": "models/heli_carrier/pipe_curved_01_heli_b"
+        },
+        "sound": {
+            "filename": "death_style/ds_metal_hollow_l"
+        },
+        "model": {
+            "filename": "models/heli_carrier/support_holes_01_heli_e"
+        },
+        "texture": {
+            "filename": "textures/spray1"
+        },
+        "effect": {
+            "filename": "base/misc/misc_watersplash"
+        },
+        "texture": {
+            "filename": "textures/s_waterwake"
+        },
+        "effect": {
+            "filename": "base/misc/misc_waterwake"
+        },
+        "effect": {
+            "filename": "base/misc/misc_waterambient"
+        },
+        "texture": {
+            "filename": "textures/water"
+        },
+        "texture": {
+            "filename": "textures/nextgen/subtleripples_n",
+            "plat": 104
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/namor_spawn"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/namorita_conversation"
+        },
+        "model": {
+            "filename": "HUD/hud_head_2201"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis1/1_atlantis1_084"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/namorita_spawn"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/spawn_defend7"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/spawn_defend6"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/openbubble_new"
+        },
+        "model": {
+            "filename": "models/pickups/experience_point"
+        },
+        "script": {
+            "filename": "scripts/common/actionfigures/xpbonus"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/open_dive_chamber"
+        },
+        "model": {
+            "filename": "models/heli_carrier/console_01_stump_heli_b"
+        },
+        "model": {
+            "filename": "models/heli_carrier/pipe_curved_01_stump_heli_b"
+        },
+        "texture": {
+            "filename": "textures/viewport_atlantis"
+        },
+        "texture": {
+            "filename": "textures/bluegrds",
+            "plat": 40
+        },
+        "texture": {
+            "filename": "textures/nextgen/distort_atlantis_weather",
+            "plat": 40
+        },
+        "effect": {
+            "filename": "map/common/weather_atlantis"
+        },
+        "texture": {
+            "filename": "textures/sun",
+            "plat": 40
+        },
+        "effect": {
+            "filename": "map/atlantis/bubbler_small"
+        },
+        "texture": {
+            "filename": "textures/misc_glow"
+        },
+        "effect": {
+            "filename": "map/atlantis/lightbeam_vertical"
+        },
+        "effect": {
+            "filename": "map/common/drip30ft"
+        },
+        "effect": {
+            "filename": "map/atlantis/volcanic_fissure02"
+        },
+        "effect": {
+            "filename": "map/common/drip20ft"
+        },
+        "texture": {
+            "filename": "textures/explosion_puff_a_gray",
+            "plat": 23
+        },
+        "effect": {
+            "filename": "map/atlantis/volcanic_fissure01"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/namor_defend_defeated_new"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/down_to_atlantis"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/to_glass_tube"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/encounter1"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/see_namor_in_bubble_new"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/back_to_first"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/back_to_tube"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/noleavenam"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/to_second_room"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis1/see_namor_in_bubble_new_alt"
+        },
+        "actoranimdb": {
+            "filename": "zone_atlantis1"
+        },
+        "characters": {
+            "filename": "maps/act1/atlantis/atlantis1"
+        },
+        "fightstyle": {
+            "filename": "data/powerstyles/ps_atlanteanchampion"
+        },
+        "fightstyle": {
+            "filename": "data/fightstyles/fightstyle_weapon_onehanded"
+        },
+        "fightstyle": {
+            "filename": "data/fightstyles/fightstyle_villain_fast"
+        },
+        "fightstyle": {
+            "filename": "data/powerstyles/ps_atlanteandefender"
+        },
+        "fightstyle": {
+            "filename": "data/fightstyles/fightstyle_villain"
+        },
+        "zonexml": {
+            "filename": "maps/act1/atlantis/atlantis1"
+        },
+        "nav": {
+            "filename": "maps/act1/atlantis/atlantis1"
+        },
+        "boy": {
+            "filename": "maps/act1/atlantis/atlantis1"
+        },
+        "zam": {
+            "filename": "automaps/act1/atlantis/atlantis1"
+        },
+        "pkg": {
+            "filename": "packages/generated/common_ents_zone"
+        },
+        "pkg": {
+            "filename": "packages/generated/item_ents_zone"
+        },
+        "pkg": {
+            "filename": "packages/generated/maps/package/permanent_fightstyles"
+        }
+    }
+}

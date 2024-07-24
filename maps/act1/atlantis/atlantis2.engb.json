@@ -1,0 +1,2015 @@
+{
+    "world": {
+        "entity": {
+            "act": 1,
+            "extent_max": "5811 3661 413",
+            "extent_min": "811 -1408 -106",
+            "level": 6,
+            "name": "world",
+            "partylight": "0.69 0.88 0.92",
+            "soundfile": "sea2",
+            "underwater": true,
+            "zonescript": "act1/atlantis/atlantis2/atlantis2"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/1_atlantis2_010",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/1_atlantis2_020",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/1_atlantis2_030",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/1_atlantis2_040",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/1_atlantis2_050",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/1_atlantis2_070",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/1_atlantis2_080",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/1_atlantis2_090",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/leave",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis2/merman_exit ",
+            "type": "script"
+        },
+        "precache": {
+            "filename": "zone_shared/atlantis/clam_open",
+            "type": "sound"
+        },
+        "precache": {
+            "filename": "zone_shared/atlantis/clam_pop",
+            "type": "sound"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanArmored_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_smartent": true,
+            "name": "ss_atlanteanarmored_a",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanArmored_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_leader": true,
+            "monster_leaderpowerup": "random_no_invuln",
+            "monster_smartent": true,
+            "name": "ss_atlanteanarmored_a_leader",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanChampion_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_smartent": true,
+            "name": "ss_atlanteanchampion_a",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanChampion_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_leader": true,
+            "monster_leaderpowerup": "random_no_invuln",
+            "monster_smartent": true,
+            "name": "ss_atlanteanchampion_a_leader",
+            "nocollide": true
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/archway_20ft_straight_atl_e",
+            "name": "archway_20ft_straight_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 2
+        },
+        "entity": {
+            "classname": "challengeent",
+            "interaction": "data/fightstyles/interact_tapsequence",
+            "interaction_node": "generic_sequence",
+            "interaction_offset_type": "local",
+            "material": "tile",
+            "model": "atlantis/clam_merman_rescue_atl_c",
+            "name": "clam_merman_rescue_atl_c",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/column_02_5x20_atl_e",
+            "name": "column_02_5x20_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/column_slab_20ft_atl_e",
+            "name": "column_slab_20ft_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/column_slab_40ft_atl_e",
+            "name": "column_slab_40ft_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 2
+        },
+        "entity": {
+            "actontouch": true,
+            "actscript": "common/killowner",
+            "classname": "physent",
+            "deathspawn": "atl_mine_expl",
+            "health": 1,
+            "material": "hollow_wood",
+            "model": "atlantis/water_mine_atl_b",
+            "name": "exploding_mine_atl_b",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 0,
+            "targetlockable": true
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "grass",
+            "model": "atlantis/kelp_20ft_atl_e",
+            "name": "kelp_20ft_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "pathignore": true,
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/obelisks_30ft_atl_e",
+            "name": "obelisks_30ft_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "animstarton": true,
+            "classname": "physent",
+            "material": "solid_metal",
+            "model": "atlantis/rare_kelp_01_atl_a",
+            "name": "rare_kelp_01_atl_a",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "actonuse": true,
+            "classname": "physent",
+            "material": "tile",
+            "model": "atlantis/safe_atl_a",
+            "name": "safe_atl_a",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "animstarton": true,
+            "camerafadeout": true,
+            "classname": "physent",
+            "deathspawn": "sonic_inducer_atl_a_d",
+            "material": "solid_metal",
+            "model": "atlantis/sonic_inducer_atl_a",
+            "name": "sonic_inducer_atl_a",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "spawnsoundloop": "zone_shared/atlantis/sonic_inducer",
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/statue_mermaid_atl_e",
+            "name": "statue_mermaid_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 2
+        },
+        "entity": {
+            "classname": "physent",
+            "deatheffect": "base/material/break/brk_underwater",
+            "deathsound": "death_style/ds_underwater_m",
+            "fxlevel": 2,
+            "health": 10,
+            "heaviness": 0,
+            "material": "tile",
+            "model": "atlantis/urn_01_atl_th",
+            "name": "urn_01_atl_th",
+            "randompickups": 3,
+            "structure": 0
+        },
+        "entity": {
+            "classname": "physent",
+            "deatheffect": "base/material/break/brk_underwater",
+            "deathsound": "death_style/ds_underwater_m",
+            "fxlevel": 2,
+            "health": 10,
+            "heaviness": 0,
+            "material": "tile",
+            "model": "atlantis/urn_02_atl_th",
+            "name": "urn_02_atl_th",
+            "randompickups": 3,
+            "structure": 0
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "actscript": "actionFigureReward('r_af_dd',188,189)",
+            "actsound": "zone_shared/special/beacon",
+            "animstarton": true,
+            "classname": "rememberent",
+            "description": "Pick up action figure",
+            "material": "plastic",
+            "model": "pickups/action_figure_daredevil",
+            "name": "daredevil_actionfigure",
+            "nocollide": true,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "randompickups": 0,
+            "smartent": false,
+            "spawnscript": "common/actionfigures/daredevil",
+            "structure": 2,
+            "team": "hero",
+            "variablename": "r_af_dd"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actdistance": 60,
+            "acteffect": "base/misc/techstation_focus",
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "actscript": "permanentStatBoost('_ACTIVATOR_','striking')",
+            "actsound": "zone_shared/object/techstation",
+            "animstarton": true,
+            "classname": "rememberent",
+            "description": "Pick up striking upgrade",
+            "material": "solid_metal",
+            "model": "pickups/striking_pickup",
+            "name": "upgrade_striking",
+            "nocollide": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "randompickups": 0,
+            "structure": 2,
+            "team": "hero",
+            "variablename": "r_upgrade_s"
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "acteffect": "base/misc/misc_treasure",
+            "actsound": "common/game/treasure",
+            "classname": "treasureent",
+            "count": 1000,
+            "name": "generic_treasureent",
+            "treasurelevel": 0
+        },
+        "entity": {
+            "classname": "lightent",
+            "lightcolor": "1 1 1",
+            "lightradius": 200,
+            "name": "lightent",
+            "nocollide": true,
+            "startoff": false
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "loopfxstarton": true,
+            "name": "loop_effect",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "classname": "ent",
+            "name": "null",
+            "nocollide": true
+        },
+        "entity": {
+            "allinone": true,
+            "classname": "playerstartent",
+            "name": "player_start_all",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "classname": "powertriggerent",
+            "hinttype": "power",
+            "name": "trigger_power",
+            "nocollide": false,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "stopfly": false,
+            "stopteleport": false,
+            "stopwalk": false,
+            "targetlockable": true,
+            "toggleonact": true
+        },
+        "entity": {
+            "actmatchteam": true,
+            "actontouch": true,
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "trigger_touch",
+            "nocollide": true,
+            "team": "hero"
+        },
+        "entity": {
+            "actonuse": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "trigger_use",
+            "nocollide": true,
+            "team": "none"
+        },
+        "entity": {
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "actscript": "common/extraction/exp_activate",
+            "actsound": "common/game/xtraction",
+            "acttogglesanim": true,
+            "acttogglesloopfx": true,
+            "animstarton": false,
+            "classname": "gameent",
+            "description": "S.H.I.E.L.D. Access Point",
+            "extent": "-30 -30 0 30 30 60",
+            "fxlevel": 1,
+            "ignoretelekinesis": true,
+            "loopfx": "base/misc/extraction_loop",
+            "loopfxstarton": false,
+            "model": "common/extraction_point",
+            "name": "xtraction_point",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "resetstate": true,
+            "spawnscript": "common/extraction/exp_spawn",
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "boxcollision": true,
+            "classname": "zonelinkent",
+            "description": "Enter next area",
+            "name": "zone_link",
+            "nocollide": false,
+            "team": "hero"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "Byrrah",
+            "classname": "monsterspawnerent",
+            "monster_deathspawn": "Byrrah_treasure",
+            "monster_team": "enemy",
+            "name": "sp_byrrah",
+            "nocollide": true,
+            "nofadeondeath": true,
+            "shadow": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "Krang",
+            "classname": "monsterspawnerent",
+            "monster_deathspawn": "Krang_treasure",
+            "monster_team": "enemy",
+            "name": "sp_krang",
+            "nocollide": true,
+            "nofadeondeath": true,
+            "shadow": true
+        },
+        "entinst": {
+            "type": "ss_atlanteanarmored_a",
+            "inst": {
+                "extents": "-12.0003 -18.0002 0 35.9997 17.9998 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 2.35619",
+                "pos": "4989.08 735.885 120"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -1.48353",
+                "pos": "4648.34 103.981 120"
+            },
+            "inst": {
+                "extents": "-12.0001 -18.0001 0 35.9999 17.9999 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 2.53073",
+                "pos": "2856.28 1246.09 120"
+            },
+            "inst": {
+                "extents": "-12.0001 -18 0 35.9999 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 2.79253",
+                "pos": "3041.05 -750.854 120"
+            },
+            "inst": {
+                "extents": "-12.0003 -18 0 35.9997 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 1.74533",
+                "pos": "1562.12 2737.37 120"
+            },
+            "inst": {
+                "extents": "-12.0002 -17.9998 0 35.9998 18.0002 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 1.8326",
+                "pos": "1643.09 2747.64 60"
+            },
+            "inst": {
+                "extents": "-11.9999 -18 0 36.0001 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 1.91986",
+                "pos": "1487.59 2686.71 120"
+            },
+            "inst": {
+                "extents": "-11.9998 -18 0 36.0002 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -2.61799",
+                "pos": "3082.5 -652.962 120"
+            },
+            "inst": {
+                "extents": "-12 -18.0001 0 36 17.9999 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -1.22173",
+                "pos": "5262.01 555.444 120"
+            },
+            "inst": {
+                "extents": "-11.9998 -18 0 36.0002 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 2.87979",
+                "pos": "3314.78 -294.089 120"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -1.5708",
+                "pos": "3866.56 424.335 120"
+            },
+            "inst": {
+                "extents": "-11.9999 -17.9999 0 36.0001 18.0001 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -0.698132",
+                "pos": "3971.54 555.268 120"
+            },
+            "inst": {
+                "extents": "-12.0002 -18 0 35.9998 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 2.61799",
+                "pos": "2725.01 -129.099 120"
+            },
+            "inst": {
+                "extents": "-12.0002 -18.0001 0 35.9998 17.9999 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 2.53073",
+                "pos": "2753.01 0.454224 120"
+            },
+            "inst": {
+                "extents": "-12.0002 -17.9998 0 35.9998 18.0002 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 1.8326",
+                "pos": "1613.28 2561.15 120"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 1.309",
+                "pos": "2347.83 1160.87 120"
+            },
+            "inst": {
+                "extents": "-12 -18.0002 0 36 17.9998 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -1.48353",
+                "pos": "4552.64 -28.3557 120"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -2.0944",
+                "pos": "5184.9 555.444 120"
+            },
+            "inst": {
+                "extents": "-11.9997 -17.9999 0 36.0003 18.0001 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 2.61799",
+                "pos": "4698.58 -818.87 120"
+            },
+            "inst": {
+                "extents": "-11.9998 -18.0001 0 36.0002 17.9999 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -2.70526",
+                "pos": "4710.24 -727.435 120"
+            },
+            "inst": {
+                "extents": "-11.9999 -18 0 36.0001 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -3.05433",
+                "pos": "3981.37 -587.445 120"
+            },
+            "inst": {
+                "extents": "-12 -17.9999 0 36 18.0001 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 1.74533",
+                "pos": "3431.06 -443.058 120"
+            },
+            "inst": {
+                "extents": "-11.9999 -18.0001 0 36.0001 17.9999 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 2.09439",
+                "pos": "3559.81 -407.707 120"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteanarmored_a",
+                "orient": "0 0 -2.53073",
+                "pos": "4984.21 830.552 120"
+            }
+        },
+        "entinst": {
+            "type": "sp_merman",
+            "inst": {
+                "extents": "-12.0001 -18 0 35.9999 18 84",
+                "name": "sp_merman",
+                "orient": "0 0 3.14159",
+                "pos": "5592.01 651.43 -0.193939"
+            }
+        },
+        "entinst": {
+            "type": "ss_atlanteanarmored_a_leader",
+            "inst": {
+                "extents": "-12 -18.0001 0 36 17.9999 84",
+                "name": "ss_atlanteanarmored_a_leader",
+                "orient": "0 0 1.65806",
+                "pos": "2745.05 1252.99 30.8806"
+            }
+        },
+        "entinst": {
+            "type": "ss_atlanteanchampion_a",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteanchampion_a",
+                "orient": "0 0 -1.39626",
+                "pos": "3880.54 533.685 120"
+            },
+            "inst": {
+                "extents": "-12.0002 -18 0 35.9998 18 84",
+                "name": "ss_atlanteanchampion_a",
+                "orient": "0 0 3.05433",
+                "pos": "3105.83 -740.36 120"
+            },
+            "inst": {
+                "extents": "-11.9999 -18 0 36.0001 18 84",
+                "name": "ss_atlanteanchampion_a",
+                "orient": "0 0 3.05433",
+                "pos": "3977.57 -731.473 120"
+            }
+        },
+        "entinst": {
+            "type": "ss_atlanteanchampion_a_leader",
+            "inst": {
+                "extents": "-12.0001 -18.0002 0 35.9999 17.9998 84",
+                "name": "ss_atlanteanchampion_a_leader",
+                "orient": "0 0 1.74533",
+                "pos": "2232.65 955.259 120"
+            },
+            "inst": {
+                "extents": "-11.9997 -18.0001 0 36.0003 17.9999 84",
+                "name": "ss_atlanteanchampion_a_leader",
+                "orient": "0 0 -2.96706",
+                "pos": "4965.68 -828.341 120"
+            },
+            "inst": {
+                "extents": "-12 -17.9998 0 36 18.0002 84",
+                "name": "ss_atlanteanchampion_a_leader",
+                "orient": "0 0 -0.872665",
+                "pos": "4495.14 90.0112 120"
+            }
+        },
+        "entinst": {
+            "type": "archway_20ft_straight_atl_e",
+            "inst": {
+                "name": "archway_20ft_straight_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "2191.65 2130.39 60.7844"
+            },
+            "inst": {
+                "name": "archway_20ft_straight_atl_e",
+                "pos": "5277.54 1729.87 141.326"
+            },
+            "inst": {
+                "name": "archway_20ft_straight_atl_e",
+                "pos": "2580.76 1499.88 60.7844"
+            }
+        },
+        "entinst": {
+            "type": "clam",
+            "inst": {
+                "name": "clam",
+                "orient": "0 0 3.14159",
+                "pos": "5586 653.784 2.54027"
+            }
+        },
+        "entinst": {
+            "type": "column_02_5x20_atl_e",
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "2302.05 1692.99 14.0247"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0.181051 0 -1.5708",
+                "pos": "2555.12 2299.99 14.0247"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "2462.65 2299.99 14.0247"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "2265.17 2299.99 14.0247"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "2745.98 1880.59 14.0247"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "5217.97 -386.625 60.2391"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "5037.87 -386.625 60.2391"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "5308.12 -838.246 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "5308.12 -464.808 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "5308.12 -653.26 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "4593.04 -948.529 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "5012.63 -959.952 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "5197.61 -959.952 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "4246.63 959.782 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "-0.168015 0 0",
+                "pos": "2302.05 1877.94 14.0247"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "3758.1 451.833 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "3758.1 636.819 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "5175.85 1530.02 0.415386"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "5175.85 1439.95 0.415386"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "5175.85 1350.2 0.415386"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "5382.26 1530.02 0.415386"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "5382.26 1439.95 0.415386"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "2749.2 1585.18 14.0247"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "5382.26 1350.2 0.415386"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "2302.05 1785.46 14.0247"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "4319.43 692.837 60.2391"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "3657.87 -685.565 60.2391"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "3828.14 -948.529 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "4347.48 -948.529 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "4090.31 -948.529 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "2302.05 1970.41 14.0247"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "4061.64 959.782 46.5382"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "3657.87 -865.661 60.2391"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "3657.87 154.889 60.2391"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "3657.87 -25.2062 60.2391"
+            },
+            "inst": {
+                "name": "column_02_5x20_atl_e",
+                "pos": "4319.43 872.932 60.2391"
+            }
+        },
+        "entinst": {
+            "type": "column_slab_20ft_atl_e",
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "3757.75 553.518 285.588"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "pos": "5095.93 -960.3 301.906"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "3659.47 -784.331 301.906"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "3659.47 55.6424 301.906"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "4320.88 773.851 301.906"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "4163.32 960.129 285.588"
+            }
+        },
+        "entinst": {
+            "type": "column_slab_40ft_atl_e",
+            "inst": {
+                "name": "column_slab_40ft_atl_e",
+                "pos": "4414.99 -947.573 285.38"
+            },
+            "inst": {
+                "name": "column_slab_40ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "5309.69 -677.141 285.38"
+            },
+            "inst": {
+                "name": "column_slab_40ft_atl_e",
+                "pos": "3937.71 -947.573 285.38"
+            }
+        },
+        "entinst": {
+            "type": "exploding_mine_atl_b86",
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.87979",
+                "pos": "2191.64 44.5735 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 2.35619",
+                "pos": "3122.03 716.898 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 2.35619",
+                "pos": "2896.84 355.264 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 2.26893",
+                "pos": "2325.06 1385.88 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -1.309",
+                "pos": "4284.4 171.148 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -1.309",
+                "pos": "4849.61 336.991 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 3.05433",
+                "pos": "4632.01 -156.12 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 2.09439",
+                "pos": "2329.93 -315.481 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "pos": "2879.96 -641.976 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.87979",
+                "pos": "2651.29 1239.2 30.5618"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -1.309",
+                "pos": "4660.65 212.95 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.79253",
+                "pos": "4732.92 -62.0037 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.87979",
+                "pos": "2165.15 372.797 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 2.35619",
+                "pos": "4490.46 -25.6974 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 1.0472",
+                "pos": "4409.21 -298.884 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 1.0472",
+                "pos": "4293.56 -178.583 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.87979",
+                "pos": "2859.44 1599.54 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.87979",
+                "pos": "2961.12 1413.82 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 1.8326",
+                "pos": "2468.57 1029.47 120.989"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 2.09439",
+                "pos": "1537.01 2449.61 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.87979",
+                "pos": "1755.29 2511.77 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.87979",
+                "pos": "1597.01 2865.16 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -1.309",
+                "pos": "4522.07 -128.655 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.87979",
+                "pos": "1412.65 2781.49 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 -2.87979",
+                "pos": "2361.36 769.695 0.404236"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 1.8326",
+                "pos": "3051.04 -332.741 60.3618"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 0.436332",
+                "pos": "3466.61 -274.405 60.3618"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 1.8326",
+                "pos": "2566.78 -64.8167 60.3618"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 1.8326",
+                "pos": "2790.45 -193.925 60.3618"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 1.8326",
+                "pos": "2656.32 132.562 60.3618"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 1.8326",
+                "pos": "2519.53 504.835 60.3618"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 0.959931",
+                "pos": "4563.4 108.212 56.3807"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "orient": "0 0 1.8326",
+                "pos": "2702.96 789.906 60.3618"
+            },
+            "inst": {
+                "name": "exploding_mine_atl_b86",
+                "pos": "3235.08 -765.277 0.404236"
+            }
+        },
+        "entinst": {
+            "type": "exploding_mine_atl_b01",
+            "inst": {
+                "name": "exploding_mine_atl_b01",
+                "orient": "0 0 1.39626",
+                "pos": "4784.43 54.7924 60.2124"
+            }
+        },
+        "entinst": {
+            "type": "kelp_20ft_atl_e",
+            "inst": {
+                "name": "kelp_20ft_atl_e",
+                "orient": "0 0 -0.436332",
+                "pos": "2975.31 485.673 0"
+            },
+            "inst": {
+                "name": "kelp_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "3241.87 108.538 0"
+            },
+            "inst": {
+                "name": "kelp_20ft_atl_e",
+                "orient": "0 0 -0.872665",
+                "pos": "4739.72 -627.44 0"
+            },
+            "inst": {
+                "name": "kelp_20ft_atl_e",
+                "orient": "0 0 1.0472",
+                "pos": "4954.4 -436.737 0"
+            },
+            "inst": {
+                "name": "kelp_20ft_atl_e",
+                "orient": "0 0 2.87979",
+                "pos": "3777.51 -95.1864 0"
+            },
+            "inst": {
+                "name": "kelp_20ft_atl_e",
+                "pos": "1079.13 3552.32 0"
+            },
+            "inst": {
+                "name": "kelp_20ft_atl_e",
+                "pos": "3778.9 213.035 0"
+            }
+        },
+        "entinst": {
+            "type": "obelisks_30ft_atl_e",
+            "inst": {
+                "name": "obelisks_30ft_atl_e",
+                "pos": "5219.76 1019.76 60.865"
+            },
+            "inst": {
+                "name": "obelisks_30ft_atl_e",
+                "pos": "5459.76 1019.76 60.865"
+            }
+        },
+        "entinst": {
+            "type": "rare_kelp_01_atl_a04",
+            "inst": {
+                "name": "rare_kelp_01_atl_a04",
+                "orient": "0 0 -2.0944",
+                "pos": "5580.71 734.175 6.6273"
+            },
+            "inst": {
+                "name": "rare_kelp_01_atl_a04",
+                "orient": "0 0 -1.13446",
+                "pos": "4251.73 1049.05 6.6273"
+            },
+            "inst": {
+                "name": "rare_kelp_01_atl_a04",
+                "orient": "0 0 -0.523599",
+                "pos": "4199.34 -974.992 0.763748"
+            },
+            "inst": {
+                "name": "rare_kelp_01_atl_a04",
+                "orient": "0 0 -1.5708",
+                "pos": "2737.03 669.823 120.3"
+            }
+        },
+        "entinst": {
+            "type": "safe",
+            "inst": {
+                "name": "safe",
+                "orient": "0 0 1.13446",
+                "pos": "4666.98 -15.0558 60.6919"
+            }
+        },
+        "entinst": {
+            "type": "inducer2",
+            "inst": {
+                "name": "inducer2",
+                "pos": "3925.27 782.712 124.544"
+            }
+        },
+        "entinst": {
+            "type": "inducer3",
+            "inst": {
+                "name": "inducer3",
+                "pos": "4892.71 -657.19 123.269"
+            }
+        },
+        "entinst": {
+            "type": "inducer1",
+            "inst": {
+                "name": "inducer1",
+                "orient": "0 0 1.5708",
+                "pos": "2521.03 1890.18 122.971"
+            }
+        },
+        "entinst": {
+            "type": "statue_mermaid_atl_e",
+            "inst": {
+                "name": "statue_mermaid_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "3759.12 544.228 0"
+            },
+            "inst": {
+                "name": "statue_mermaid_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "5105.22 -958.933 0"
+            },
+            "inst": {
+                "name": "statue_mermaid_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "5307.1 -745.654 0"
+            },
+            "inst": {
+                "name": "statue_mermaid_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "5307.1 -559.28 0"
+            },
+            "inst": {
+                "name": "statue_mermaid_atl_e",
+                "pos": "4154.03 958.762 0"
+            },
+            "inst": {
+                "name": "statue_mermaid_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "4470.03 -958.933 0"
+            },
+            "inst": {
+                "name": "statue_mermaid_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "3954.52 -958.933 0"
+            }
+        },
+        "entinst": {
+            "type": "urn_01_atl_th",
+            "inst": {
+                "name": "urn_01_atl_th",
+                "pos": "2423.62 1710.78 60.446"
+            },
+            "inst": {
+                "name": "urn_01_atl_th",
+                "orient": "0 0 1.5708",
+                "pos": "2507.43 1481.78 60.7553"
+            },
+            "inst": {
+                "name": "urn_01_atl_th",
+                "pos": "2173.54 2203.72 60.7553"
+            },
+            "inst": {
+                "name": "urn_01_atl_th",
+                "pos": "2174.08 2055.62 60.7553"
+            },
+            "inst": {
+                "name": "urn_01_atl_th",
+                "orient": "0 0 1.5708",
+                "pos": "2655.53 1482.31 60.7553"
+            }
+        },
+        "entinst": {
+            "type": "urn_02_atl_th",
+            "inst": {
+                "name": "urn_02_atl_th",
+                "orient": "0 0 2.26893",
+                "pos": "2394.5 1700.9 60.4312"
+            },
+            "inst": {
+                "name": "urn_02_atl_th",
+                "orient": "0 0 -1.48353",
+                "pos": "2405.32 1741.28 60.4312"
+            }
+        },
+        "entinst": {
+            "type": "daredevil_af",
+            "inst": {
+                "name": "daredevil_af",
+                "orient": "0 0 -2.87979",
+                "pos": "4666.79 -23.0029 64.9631"
+            }
+        },
+        "entinst": {
+            "type": "upgrade_striking02",
+            "inst": {
+                "name": "upgrade_striking02",
+                "pos": "4212.74 500.133 0"
+            }
+        },
+        "entinst": {
+            "type": "theloot",
+            "inst": {
+                "extents": "-5.99998 -5.99976 -6 6.00002 6.00024 6",
+                "name": "theloot",
+                "orient": "0 0 -2.00713",
+                "pos": "4671.66 -7.79878 70.9071"
+            }
+        },
+        "entinst": {
+            "type": "lightent01",
+            "inst": {
+                "extents": "-5.99999 -6.00008 -6 6.00001 5.99992 6",
+                "name": "lightent01",
+                "orient": "0 0 1.5708",
+                "parent": "inducer1",
+                "pos": "2521.03 1890.18 218.971"
+            }
+        },
+        "entinst": {
+            "type": "lightent02",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "lightent02",
+                "parent": "inducer3",
+                "pos": "4892.48 -657.928 223.296"
+            }
+        },
+        "entinst": {
+            "type": "lightent03",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "lightent03",
+                "parent": "inducer2",
+                "pos": "3925.27 782.712 220.544"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect14",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect14",
+                "pos": "2698.36 663.814 126.727"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect14",
+                "pos": "2126.58 -173.178 32.1309"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect14",
+                "pos": "4215.04 1096.08 12.7753"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect14",
+                "pos": "5622.82 783.843 31.1042"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect14",
+                "pos": "4235.17 -1002.71 4.12786"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect10",
+            "inst": {
+                "extents": "-5.99988 -5.99992 -6 6.00012 6.00008 6",
+                "name": "loop_effect10",
+                "orient": "0 0 2.18166",
+                "pos": "1260.56 3384.17 2.3497"
+            },
+            "inst": {
+                "extents": "-5.99996 -5.99992 -6 6.00004 6.00008 6",
+                "name": "loop_effect10",
+                "orient": "0 0 2.18166",
+                "pos": "1707.94 2592.87 7.60877"
+            },
+            "inst": {
+                "extents": "-5.99982 -6.00001 -6 6.00018 5.99999 6",
+                "name": "loop_effect10",
+                "orient": "0 0 0.0872663",
+                "pos": "4589.84 -77.3248 70.071"
+            },
+            "inst": {
+                "extents": "-5.99979 -5.99999 -6 6.00021 6.00001 6",
+                "name": "loop_effect10",
+                "orient": "0 0 0.0872663",
+                "pos": "5276.04 1269.79 3.68281"
+            },
+            "inst": {
+                "extents": "-5.99999 -5.9999 -6 6.00001 6.0001 6",
+                "name": "loop_effect10",
+                "orient": "0 0 2.18166",
+                "pos": "2297.54 2158.67 63.0669"
+            },
+            "inst": {
+                "extents": "-5.99983 -6 -6 6.00017 6 6",
+                "name": "loop_effect10",
+                "orient": "0 0 0.0872663",
+                "pos": "5150.06 -724.661 64.153"
+            },
+            "inst": {
+                "extents": "-6.00003 -5.99996 -6 5.99997 6.00004 6",
+                "name": "loop_effect10",
+                "orient": "0 0 0.0872663",
+                "pos": "3962.14 -801.443 64.153"
+            },
+            "inst": {
+                "extents": "-6.00006 -6.00004 -6 5.99994 5.99996 6",
+                "name": "loop_effect10",
+                "orient": "0 0 2.18166",
+                "pos": "2935.94 -547.512 7.60877"
+            },
+            "inst": {
+                "extents": "-6.00001 -5.9999 -6 5.99999 6.0001 6",
+                "name": "loop_effect10",
+                "orient": "0 0 2.18166",
+                "pos": "2788.35 1351.79 7.60877"
+            },
+            "inst": {
+                "extents": "-6.00001 -6.00004 -6 5.99999 5.99996 6",
+                "name": "loop_effect10",
+                "orient": "0 0 2.18166",
+                "pos": "2658.93 -17.5135 61.441"
+            }
+        },
+        "entinst": {
+            "type": "water_weather",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "water_weather",
+                "pos": "1064.04 3461.28 41.1939"
+            }
+        },
+        "entinst": {
+            "type": "cam_villains",
+            "inst": {
+                "extents": "-5.99995 -6.00006 -6 6.00005 5.99994 6",
+                "name": "cam_villains",
+                "orient": "0 0 -0.0872664",
+                "pos": "2353.17 2109.76 60"
+            }
+        },
+        "entinst": {
+            "type": "player_start_all01",
+            "inst": {
+                "extents": "-48.0243 -95.2953 0 71.9757 48.7832 83.9544",
+                "name": "player_start_all01",
+                "pos": "1020.12 3362.55 15.1432"
+            }
+        },
+        "entinst": {
+            "type": "player_start_all02",
+            "inst": {
+                "extents": "-48.0243 -95.2951 0 71.9757 48.7835 83.9544",
+                "name": "player_start_all02",
+                "orient": "0 0 -1.5708",
+                "pos": "5284.01 1488.39 1.7858"
+            }
+        },
+        "entinst": {
+            "type": "trig_clam",
+            "inst": {
+                "extents": "-11.9998 -12 0 11.9998 12 72",
+                "name": "trig_clam",
+                "pos": "5496.01 653.784 2.46893"
+            }
+        },
+        "entinst": {
+            "type": "trig_villains",
+            "inst": {
+                "extents": "-12 -600 0 12 600 360",
+                "name": "trig_villains",
+                "pos": "1835.51 2304.77 0"
+            }
+        },
+        "entinst": {
+            "type": "trig_safe",
+            "inst": {
+                "extents": "-18 -18 0 18 18 72",
+                "name": "trig_safe",
+                "orient": "0 0 -2.00713",
+                "pos": "4644.32 -6.90666 60.6919"
+            }
+        },
+        "entinst": {
+            "type": "xtraction_point",
+            "inst": {
+                "name": "xtraction_point",
+                "pos": "4200.03 -509.991 0"
+            }
+        },
+        "entinst": {
+            "type": "link_atlantis4",
+            "inst": {
+                "extents": "-60 -90.0001 0 60 89.9999 360",
+                "name": "link_atlantis4",
+                "orient": "0 0 1.5708",
+                "pos": "5285.38 1620.39 -6.80343"
+            }
+        },
+        "entinst": {
+            "type": "link_atlantis1",
+            "inst": {
+                "extents": "-60 -90 0 60 90 360",
+                "name": "link_atlantis1",
+                "pos": "888.117 3362.38 -2.57056"
+            }
+        },
+        "entinst": {
+            "type": "byrrah",
+            "inst": {
+                "extents": "-12.0001 -18.0001 0 35.9999 17.9999 84",
+                "name": "byrrah",
+                "orient": "0 0 3.05433",
+                "pos": "2390.04 2156.64 60"
+            }
+        },
+        "entinst": {
+            "type": "krang",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "krang",
+                "orient": "0 0 3.05433",
+                "pos": "2397.78 2073.23 60"
+            }
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanArmored_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_name": "merman",
+            "monster_smartent": true,
+            "monster_spawnscript": "act1/atlantis/atlantis2/merman_spscr",
+            "monster_team": "neutral",
+            "name": "sp_merman",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "actscript": "act1/atlantis/atlantis2/turn_off_ai",
+            "buttonseq": "X 2.5",
+            "challengetype": "tap",
+            "classname": "challengeent",
+            "failscript": "act1/atlantis/atlantis2/clam_lose",
+            "heroanim": "ea_zone3",
+            "interaction": "data/fightstyles/interact_tapsequence",
+            "interaction_node": "generic_sequence",
+            "interaction_offset_type": "local",
+            "isolate": false,
+            "material": "tile",
+            "model": "atlantis/clam_merman_rescue_atl_c",
+            "name": "clam",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "resetstate": true,
+            "smartent": false,
+            "structure": 2,
+            "winscript": "act1/atlantis/atlantis2/clam_win",
+            "wintime": 4
+        },
+        "entity": {
+            "actontouch": true,
+            "actscript": "common/killowner",
+            "classname": "physent",
+            "deathsound": "zone_shared/fx/explosion",
+            "deathspawn": "atl_mine_expl",
+            "health": 1,
+            "material": "hollow_wood",
+            "model": "atlantis/water_mine_atl_b",
+            "name": "exploding_mine_atl_b01",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 0,
+            "targetlockable": true
+        },
+        "entity": {
+            "actontouch": true,
+            "actscript": "act1/atlantis/atlantis2/mine_boom",
+            "classname": "physent",
+            "deathsound": "zone_shared/fx/explosion",
+            "deathspawn": "atl_mine_expl",
+            "health": 1,
+            "material": "hollow_wood",
+            "model": "atlantis/water_mine_atl_b",
+            "name": "exploding_mine_atl_b86",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 0,
+            "targetlockable": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "acteffect": "map/atlantis/mine_death",
+            "actsound": "zone_shared/atlantis/mines",
+            "classname": "affectableharment",
+            "conversationoff": true,
+            "damage": 25,
+            "damagemods": "dmgmod_unblockable dmgmod_ignore_def dmgmod_forcepain",
+            "damagetype": "dmg_physical",
+            "extent": "-45 -45 0 45 45 90",
+            "firstact": 0.1,
+            "health": 1,
+            "name": "atl_mine_expl",
+            "nocollide": true,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "pos": "0 0 90",
+            "radiusdamage": true,
+            "smartent": false,
+            "structure": 0
+        },
+        "entity": {
+            "actonuse": true,
+            "actscript": "common/killowner",
+            "actspawn": "instanthealthorb instanthealthorb instanthealthorb instanthealthorb instanthealthorb",
+            "animstarton": true,
+            "classname": "physent",
+            "description": "Rare Kelp",
+            "material": "solid_metal",
+            "model": "atlantis/rare_kelp_01_atl_a",
+            "name": "rare_kelp_01_atl_a04",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "actonuse": false,
+            "classname": "physent",
+            "material": "tile",
+            "model": "atlantis/safe_atl_a",
+            "name": "safe",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "smartent": false,
+            "structure": 2
+        },
+        "entity": {
+            "animstarton": true,
+            "camerafadeout": true,
+            "classname": "physent",
+            "deatheffect": "map/atlantis/sonic_inducer_death",
+            "deathscript": "act1/atlantis/atlantis2/inducer1_death",
+            "deathspawn": "sonic_inducer_atl_a_d",
+            "health": 200,
+            "hinttype": "objective",
+            "material": "solid_metal",
+            "model": "atlantis/sonic_inducer_atl_a",
+            "name": "inducer1",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "smartent": false,
+            "spawnsoundloop": "zone_shared/atlantis/sonic_inducer",
+            "structure": 1
+        },
+        "entity": {
+            "animstarton": true,
+            "camerafadeout": true,
+            "classname": "physent",
+            "deatheffect": "map/atlantis/sonic_inducer_death",
+            "deathscript": "act1/atlantis/atlantis2/inducer3_death",
+            "deathspawn": "sonic_inducer_atl_a_d",
+            "health": 200,
+            "hinttype": "objective",
+            "material": "solid_metal",
+            "model": "atlantis/sonic_inducer_atl_a",
+            "name": "inducer3",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "smartent": false,
+            "spawnsoundloop": "zone_shared/atlantis/sonic_inducer",
+            "structure": 1
+        },
+        "entity": {
+            "animstarton": true,
+            "camerafadeout": true,
+            "classname": "physent",
+            "deatheffect": "map/atlantis/sonic_inducer_death",
+            "deathscript": "act1/atlantis/atlantis2/inducer2_death",
+            "deathspawn": "sonic_inducer_atl_a_d",
+            "health": 200,
+            "hinttype": "objective",
+            "material": "solid_metal",
+            "model": "atlantis/sonic_inducer_atl_a",
+            "name": "inducer2",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "smartent": false,
+            "spawnsoundloop": "zone_shared/atlantis/sonic_inducer",
+            "structure": 1
+        },
+        "entity": {
+            "animstarton": true,
+            "camerafadeout": true,
+            "classname": "physent",
+            "mass": 0,
+            "material": "solid_metal",
+            "model": "atlantis/sonic_inducer_stump_atl_a",
+            "name": "sonic_inducer_atl_a_d",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actdistance": 120,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "actscript": "actionFigureReward('r_af_dd',188,189)",
+            "actsound": "zone_shared/special/beacon",
+            "animstarton": true,
+            "classname": "rememberent",
+            "description": "Pick up action figure",
+            "idnum": 2,
+            "material": "plastic",
+            "model": "pickups/action_figure_daredevil",
+            "name": "daredevil_af",
+            "nocollide": true,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "randompickups": 0,
+            "smartent": false,
+            "spawnscript": "common/actionfigures/daredevil",
+            "startenabled": false,
+            "structure": 2,
+            "team": "hero",
+            "variablename": "r_af_dd"
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "actcountremove": 1,
+            "actdistance": 60,
+            "acteffect": "base/item/item_pickup",
+            "actleader": true,
+            "actonuse": true,
+            "actscript": "common/actionfigures/xpbonus",
+            "actsound": "common/game/pickup_power",
+            "animstarton": true,
+            "classname": "physent",
+            "description": "Experience Points",
+            "fxlevel": 7,
+            "model": "pickups/experience_point",
+            "name": "af_dd_xp",
+            "nocollide": true,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "persistent": false,
+            "quickuse": true,
+            "smartent": false,
+            "structure": 2
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actdistance": 60,
+            "acteffect": "base/misc/techstation_focus",
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "actscript": "permanentStatBoost('_ACTIVATOR_','striking')",
+            "actsound": "zone_shared/object/techstation",
+            "animstarton": true,
+            "classname": "rememberent",
+            "description": "Pick up striking upgrade",
+            "idnum": 4,
+            "material": "solid_metal",
+            "model": "pickups/striking_pickup",
+            "name": "upgrade_striking02",
+            "nocollide": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "randompickups": 0,
+            "structure": 2,
+            "team": "hero",
+            "variablename": "r_upgrade_s"
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "acteffect": "base/misc/misc_treasure",
+            "actsound": "common/game/treasure",
+            "classname": "treasureent",
+            "count": 1000,
+            "name": "theloot",
+            "smartent": false,
+            "treasurelevel": 0
+        },
+        "entity": {
+            "classname": "lightent",
+            "flickeroff": 0.5,
+            "flickeron": 1,
+            "lightcolor": "0.02 0.33 0.79",
+            "lightradius": 350,
+            "name": "lightent03",
+            "nocollide": true,
+            "pulse": true,
+            "startoff": false
+        },
+        "entity": {
+            "classname": "lightent",
+            "flickeroff": 0.5,
+            "flickeron": 1,
+            "lightcolor": "0.04 0.19 0.83",
+            "lightradius": 350,
+            "name": "lightent02",
+            "nocollide": true,
+            "pulse": true,
+            "startoff": false
+        },
+        "entity": {
+            "classname": "lightent",
+            "flickeroff": 0.5,
+            "flickeron": 1,
+            "lightcolor": "0.02 0.28 0.8",
+            "lightradius": 350,
+            "name": "lightent01",
+            "nocollide": true,
+            "pulse": true,
+            "startoff": false
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "alwaysvisible": true,
+            "classname": "actionent",
+            "loopfx": "map/common/weather_atlantis",
+            "loopfxstarton": false,
+            "name": "water_weather",
+            "nocollide": true,
+            "resetstate": true,
+            "smartent": false
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "fxlevel": 2,
+            "loopfx": "map/atlantis/lightbeam_vertical",
+            "loopfxstarton": true,
+            "name": "loop_effect10",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "loopfx": "map/atlantis/volcanic_fissure01",
+            "loopfxstarton": true,
+            "name": "loop_effect14",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "classname": "ent",
+            "name": "cam_villains",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "allinone": true,
+            "classname": "playerstartent",
+            "name": "player_start_all02",
+            "nocollide": true,
+            "prevlink": "link_atlantis2",
+            "prevzone": "act1/atlantis/atlantis4"
+        },
+        "entity": {
+            "allinone": true,
+            "classname": "playerstartent",
+            "default": true,
+            "name": "player_start_all01",
+            "nocollide": true,
+            "prevlink": "link_atlantis2",
+            "prevzone": "act1/atlantis/atlantis1"
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "actinactivedelay": 1,
+            "actonuse": true,
+            "actscript": "act1/atlantis/atlantis3/fov_zoom",
+            "acttargets": "clam",
+            "classname": "powertriggerent",
+            "description": "Force Open Giant Clam",
+            "hinttype": "power",
+            "name": "trig_clam",
+            "nocollide": false,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "reactpower": "move",
+            "resetstate": true,
+            "smartent": false,
+            "stopfly": false,
+            "stopteleport": false,
+            "stopwalk": false,
+            "targetlockable": true,
+            "toggleonact": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actmatchteam": true,
+            "actontouch": true,
+            "actscript": "act1/atlantis/atlantis2/villains_intro",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "trig_villains",
+            "nocollide": true,
+            "smartent": false,
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 1,
+            "actonuse": true,
+            "actscript": "act1/atlantis/atlantis2/open_safe",
+            "boxcollision": true,
+            "classname": "gameent",
+            "description": "Open Safe",
+            "hinttype": "usetoggle",
+            "name": "trig_safe",
+            "nocollide": true,
+            "quickuse": true,
+            "smartent": false,
+            "team": "none"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "acteffect": "base/misc/extraction_burst",
+            "actleader": true,
+            "actmatchteam": true,
+            "actontouch": true,
+            "actscript": "common/extraction/exp_trig",
+            "actsound": "common/game/extraction",
+            "actteamplayer": true,
+            "acttogglesloopfx": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "extent": "-120 -120 0 120 120 72",
+            "fxlevel": 2,
+            "loopfx": "base/misc/extraction_loop",
+            "loopfxstarton": true,
+            "name": "expt_trig",
+            "nocollide": true,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "persistent": false,
+            "resetstate": true,
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "boxcollision": true,
+            "classname": "zonelinkent",
+            "description": "S.H.I.E.L.D. Outpost",
+            "name": "link_atlantis1",
+            "nextzone": "act1/atlantis/atlantis1",
+            "nocollide": false,
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "boxcollision": true,
+            "classname": "zonelinkent",
+            "description": "Atlantean Throne",
+            "name": "link_atlantis4",
+            "nextzone": "act1/atlantis/atlantis4",
+            "nocollide": false,
+            "startenabled": true,
+            "team": "hero"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "Byrrah",
+            "classname": "monsterspawnerent",
+            "monster_deathscript": "common/defeatnamedvillain",
+            "monster_deathspawn": "Byrrah_treasure",
+            "monster_name": "byrrah",
+            "monster_spawnscript": "common/set_visible",
+            "monster_team": "enemy",
+            "name": "byrrah",
+            "nocollide": true,
+            "nofadeondeath": true,
+            "shadow": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "acteffect": "base/misc/misc_treasure",
+            "actsound": "common/game/treasure",
+            "classname": "treasureent",
+            "count": 1000,
+            "firstact": 0.1,
+            "from_enemy": "Byrrah",
+            "monster_deathspawn": "Byrrah_treasure",
+            "name": "Byrrah_treasure",
+            "nocollide": true,
+            "treasurelevel": 0
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "Krang",
+            "classname": "monsterspawnerent",
+            "monster_deathscript": "common/defeatnamedvillain",
+            "monster_deathspawn": "Krang_treasure",
+            "monster_name": "krang",
+            "monster_spawnscript": "common/set_visible",
+            "monster_team": "enemy",
+            "name": "krang",
+            "nocollide": true,
+            "nofadeondeath": true,
+            "shadow": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "acteffect": "base/misc/misc_treasure",
+            "actsound": "common/game/treasure",
+            "classname": "treasureent",
+            "count": 1000,
+            "firstact": 0.1,
+            "from_enemy": "Krang",
+            "monster_deathspawn": "Krang_treasure",
+            "name": "Krang_treasure",
+            "nocollide": true,
+            "treasurelevel": 0
+        }
+    }
+}

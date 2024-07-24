@@ -1,0 +1,505 @@
+{
+    "packagedef": {
+        "combat_is": {
+            "filename": "on"
+        },
+        "bigconvmap": {
+            "filename": "off"
+        },
+        "model": {
+            "filename": "maps/act1/atlantis/atlantis3"
+        },
+        "shadow": {
+            "filename": "maps/act1/atlantis/atlantis3",
+            "plat": 40
+        },
+        "shared_powerups": {
+            "filename": "data/shared_powerups"
+        },
+        "xml": {
+            "filename": "data/npcstat"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/atlantis3"
+        },
+        "model": {
+            "filename": "HUD/hud_head_15501"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis3/1_atlantis3_010"
+        },
+        "texture": {
+            "filename": "textures/bubble"
+        },
+        "effect": {
+            "filename": "base/misc/under_water"
+        },
+        "effect": {
+            "filename": "base/misc/under_water_stroke"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis3/1_atlantis3_020"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis3/1_atlantis3_030"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/end_see_statue"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis3/1_atlantis3_040"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis3/1_atlantis3_050"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/lower_arm_end"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis3/1_atlantis3_060"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis3/1_atlantis3_065"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/open_zonelink"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis3/1_atlantis3_070"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/reset_cam"
+        },
+        "actoranimdb": {
+            "filename": "120_atlantean_armored"
+        },
+        "actorskin": {
+            "filename": 12001
+        },
+        "model": {
+            "filename": "HUD/hud_head_12001"
+        },
+        "texture": {
+            "filename": "textures/water_wash"
+        },
+        "model": {
+            "filename": "models/chunks/roc_3"
+        },
+        "effect": {
+            "filename": "char/atla/p1_power"
+        },
+        "effect": {
+            "filename": "char/atla/p2_power"
+        },
+        "texture": {
+            "filename": "textures/spots5"
+        },
+        "effect": {
+            "filename": "char/atla/p2_impact"
+        },
+        "sound": {
+            "filename": "char/atla_m/p2_impact"
+        },
+        "xml": {
+            "filename": "data/entities/ents_atlanteanarmored"
+        },
+        "model": {
+            "filename": "models/bolton/atlantean_armored_hammer"
+        },
+        "effect": {
+            "filename": "char/atla/weapon_death"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_twohanded"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_twohanded_4_120_atlantean_armored"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_twohanded_4_humanoid_large"
+        },
+        "xml": {
+            "filename": "data/weapons/wp_atlanteanarmored_staff"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_villain_big"
+        },
+        "actoranimdb": {
+            "filename": "121_atlantean_champion"
+        },
+        "actorskin": {
+            "filename": 12102
+        },
+        "model": {
+            "filename": "HUD/hud_head_12101"
+        },
+        "effect": {
+            "filename": "char/atlc/p1_power"
+        },
+        "effect": {
+            "filename": "char/atlc/p2_power"
+        },
+        "texture": {
+            "filename": "textures/misc_rune"
+        },
+        "effect": {
+            "filename": "char/atlc/p3_power"
+        },
+        "model": {
+            "filename": "models/bolton/atlantean_champion_spear"
+        },
+        "model": {
+            "filename": "models/bolton/atlantean_champion_shield"
+        },
+        "effect": {
+            "filename": "char/atlc/weapon_death"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_onehanded"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_onehanded_4_120_atlantean_armored"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_onehanded_4_121_atlantean_champion"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_weapon_onehanded_4_122_atlantean_defender"
+        },
+        "xml": {
+            "filename": "data/weapons/wp_atlanteanchampion_spear"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_villain_fast"
+        },
+        "actoranimdb": {
+            "filename": "122_atlantean_defender"
+        },
+        "actorskin": {
+            "filename": 12203
+        },
+        "model": {
+            "filename": "HUD/hud_head_12201"
+        },
+        "effect": {
+            "filename": "char/atld/p1_power"
+        },
+        "effect": {
+            "filename": "char/atld/p2_power"
+        },
+        "effect": {
+            "filename": "char/atld/p3_power"
+        },
+        "effect": {
+            "filename": "char/atld/p4_power"
+        },
+        "effect": {
+            "filename": "char/atld/p4_impact"
+        },
+        "sound": {
+            "filename": "char/atld_m/p4_impact"
+        },
+        "xml": {
+            "filename": "data/entities/ents_atlanteandefender"
+        },
+        "effect": {
+            "filename": "char/atld/special_resurrect"
+        },
+        "model": {
+            "filename": "models/bolton/atlantean_defender_sword_right"
+        },
+        "model": {
+            "filename": "models/bolton/atlantean_defender_sword_left"
+        },
+        "effect": {
+            "filename": "char/atld/weapon_death"
+        },
+        "xml": {
+            "filename": "data/weapons/wp_atlanteandefender_swords"
+        },
+        "actoranimdb": {
+            "filename": "fightstyle_villain"
+        },
+        "model": {
+            "filename": "models/atlantis/clam_hero_release_atl_c"
+        },
+        "actoranimdb": {
+            "filename": "interact_tapsequence"
+        },
+        "model": {
+            "filename": "models/atlantis/column_01_5x20_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/column_02_5x20_atl_e"
+        },
+        "model": {
+            "filename": "models/chunks/c_rocktunnels_c"
+        },
+        "texture": {
+            "filename": "textures/chunks/stone_1"
+        },
+        "texture": {
+            "filename": "textures/nextgen/debrisline1",
+            "plat": 40
+        },
+        "texture": {
+            "filename": "textures/nextgen/decals/debrisdecal1",
+            "plat": 40
+        },
+        "effect": {
+            "filename": "base/material/break/brk_stone"
+        },
+        "model": {
+            "filename": "models/atlantis/column_8ft_atl_th"
+        },
+        "sound": {
+            "filename": "death_style/ds_stone_m"
+        },
+        "model": {
+            "filename": "models/atlantis/column_slab_10ft_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/column_slab_20ft_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/column_slab_30ft_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/dec_lightpool_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/door_basic_atl_d"
+        },
+        "model": {
+            "filename": "models/atlantis/kelp_20ft_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/kelp_20ft_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/kelp_9ft_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/obelisks_30ft_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/oricalcum_orb_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/plant_01_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/plant_02_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/seaweed_03_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/statue_mermaid_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/statue_namor_giant_02_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/statue_poseidon_atl_a"
+        },
+        "model": {
+            "filename": "models/atlantis/statue_seahorse_atl_b"
+        },
+        "model": {
+            "filename": "models/atlantis/statue_warrior_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/tomb_alcove_doors_atl_c"
+        },
+        "model": {
+            "filename": "models/atlantis/u_column_kelp_30ft_atl_e"
+        },
+        "model": {
+            "filename": "models/atlantis/u_trident_tip_atl_e"
+        },
+        "texture": {
+            "filename": "textures/sun",
+            "plat": 40
+        },
+        "effect": {
+            "filename": "base/material/break/brk_underwater"
+        },
+        "model": {
+            "filename": "models/atlantis/urn_01_atl_th"
+        },
+        "sound": {
+            "filename": "death_style/ds_underwater_m"
+        },
+        "model": {
+            "filename": "models/atlantis/urn_02_atl_th"
+        },
+        "model": {
+            "filename": "models/atlantis/vase_02_atl_b"
+        },
+        "model": {
+            "filename": "models/atlantis/wall_broken_atl_b"
+        },
+        "model": {
+            "filename": "models/pickups/pickup_dangeroom_disk"
+        },
+        "effect": {
+            "filename": "base/misc/techstation_focus"
+        },
+        "model": {
+            "filename": "models/pickups/skill_point"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/clam_opened"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis2/turn_off_ai"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/clam_fail"
+        },
+        "model": {
+            "filename": "models/atlantis/statue_seahorse_stump_atl_b"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/tomb_opened"
+        },
+        "script": {
+            "filename": "scripts/common/killowner"
+        },
+        "model": {
+            "filename": "models/atlantis/wall_broken_stump_atl_b"
+        },
+        "texture": {
+            "filename": "textures/explosion_puff_a_gray"
+        },
+        "effect": {
+            "filename": "map/atlantis/volcanic_fissure01"
+        },
+        "texture": {
+            "filename": "textures/viewport_atlantis"
+        },
+        "texture": {
+            "filename": "textures/bluegrds",
+            "plat": 40
+        },
+        "texture": {
+            "filename": "textures/nextgen/distort_atlantis_weather",
+            "plat": 40
+        },
+        "effect": {
+            "filename": "map/common/weather_atlantis"
+        },
+        "effect": {
+            "filename": "map/atlantis/bubbler_small"
+        },
+        "texture": {
+            "filename": "textures/misc_glow"
+        },
+        "effect": {
+            "filename": "map/atlantis/lightbeam_vertical"
+        },
+        "effect": {
+            "filename": "map/atlantis/poseidon_loop"
+        },
+        "effect": {
+            "filename": "map/atlantis/poseidon_pearl_act"
+        },
+        "effect": {
+            "filename": "map/atlantis/poseidon_beam"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/got_both_beads"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/got_first_bead"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/statue_hint"
+        },
+        "xml": {
+            "filename": "conversations/act1/atlantis/atlantis3/statue_hint"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/lower_arm"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/open_garden_door"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/see_statue"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/trident_tiptaken"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/fov_zoom"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/final_trident"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/rare_kelp"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/bead1_place"
+        },
+        "script": {
+            "filename": "scripts/act1/atlantis/atlantis3/bead2_place"
+        },
+        "actoranimdb": {
+            "filename": "zone_atlantis3"
+        },
+        "characters": {
+            "filename": "maps/act1/atlantis/atlantis3"
+        },
+        "fightstyle": {
+            "filename": "data/powerstyles/ps_atlanteanarmored"
+        },
+        "fightstyle": {
+            "filename": "data/fightstyles/fightstyle_weapon_twohanded"
+        },
+        "fightstyle": {
+            "filename": "data/fightstyles/fightstyle_villain_big"
+        },
+        "fightstyle": {
+            "filename": "data/powerstyles/ps_atlanteanchampion"
+        },
+        "fightstyle": {
+            "filename": "data/fightstyles/fightstyle_weapon_onehanded"
+        },
+        "fightstyle": {
+            "filename": "data/fightstyles/fightstyle_villain_fast"
+        },
+        "fightstyle": {
+            "filename": "data/powerstyles/ps_atlanteandefender"
+        },
+        "fightstyle": {
+            "filename": "data/fightstyles/fightstyle_villain"
+        },
+        "fightstyle": {
+            "filename": "data/fightstyles/interact_tapsequence"
+        },
+        "zonexml": {
+            "filename": "maps/act1/atlantis/atlantis3"
+        },
+        "nav": {
+            "filename": "maps/act1/atlantis/atlantis3"
+        },
+        "boy": {
+            "filename": "maps/act1/atlantis/atlantis3"
+        },
+        "zam": {
+            "filename": "automaps/act1/atlantis/atlantis3"
+        },
+        "pkg": {
+            "filename": "packages/generated/common_ents_zone"
+        },
+        "pkg": {
+            "filename": "packages/generated/item_ents_zone"
+        },
+        "pkg": {
+            "filename": "packages/generated/maps/package/permanent_fightstyles"
+        }
+    }
+}

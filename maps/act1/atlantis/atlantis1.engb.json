@@ -1,0 +1,2600 @@
+{
+    "world": {
+        "entity": {
+            "act": 1,
+            "bigconvmap": true,
+            "level": 6,
+            "name": "world",
+            "next_gen_partylight": "0 0 0",
+            "partylight": "1 0.95 0.41",
+            "soundfile": "sea1",
+            "startblack": true,
+            "underwater": true,
+            "zonescript": "act1/atlantis/atlantis1/atlantis1_open"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_ATLANTIS1_025",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_ATLANTIS1_027",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_010",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_020_alt",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_030",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_040",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_050",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_055",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_060",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_060a",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_060b",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_062",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_062a",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_062b",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_070",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_080",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/1_atlantis1_082",
+            "type": "conversation"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/atlantis1b",
+            "type": "script"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/atlantis1c",
+            "type": "script"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/encounter1_end",
+            "type": "script"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/end_namor_in_bubble_convo",
+            "type": "script"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/namor_sleep",
+            "type": "script"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/namor_wake",
+            "type": "script"
+        },
+        "precache": {
+            "filename": "act1/atlantis/atlantis1/openbubbleB",
+            "type": "script"
+        },
+        "precache": {
+            "filename": "zone_shared/atlantis/justin_nanotech",
+            "type": "sound"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "Namor",
+            "classname": "monsterspawnerent",
+            "name": "sp_namor",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "Namorita",
+            "classname": "monsterspawnerent",
+            "name": "sp_namorita",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanChampion_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_smartent": true,
+            "name": "ss_atlanteanchampion_a",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_smartent": true,
+            "name": "ss_atlanteandefender_a",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_leader": true,
+            "monster_leaderpowerup": "random_no_invuln",
+            "monster_smartent": true,
+            "name": "ss_atlanteandefender_a_leader",
+            "nocollide": true
+        },
+        "entity": {
+            "animstarton": true,
+            "classname": "physent",
+            "material": "solid_metal",
+            "model": "atlantis/breathing_tank_sh_atl_a",
+            "name": "breathing_tank_sh_atl_a",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/column_01_5x20_atl_e",
+            "name": "column_01_5x20_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/column_arch_atl_e",
+            "name": "column_arch_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/column_slab_20ft_atl_e",
+            "name": "column_slab_20ft_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 2
+        },
+        "entity": {
+            "actonuse": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/console_water_atl_a",
+            "name": "console_water_atl_a",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "autoclosedelay": 0,
+            "classname": "doorent",
+            "material": "rock",
+            "model": "atlantis/door_coral_grate_atl_d",
+            "name": "door_coral_grate_atl_d",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "openposition": 0.9,
+            "openupdown": true,
+            "structure": 2,
+            "toggleonact": true
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "actsound": "zone_shared/mover/door_skrull",
+            "animstarton": false,
+            "autoclosedelay": 0,
+            "classname": "doorent",
+            "material": "solid_metal",
+            "model": "atlantis/door_hatch_atl_a",
+            "name": "door_hatch_atl_a",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "openposition": 0.9,
+            "structure": 2,
+            "toggleonact": true
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/roof_20x10_atl_e",
+            "name": "roof_20x10_atl_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "animstarton": true,
+            "classname": "physent",
+            "material": "energy",
+            "model": "atlantis/u_force_field_bubble_atl_a",
+            "name": "u_force_field _bubble_atl_a",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "actscript": "actionFigureReward('r_af_bp',190,191)",
+            "actsound": "zone_shared/special/beacon",
+            "animstarton": true,
+            "classname": "rememberent",
+            "description": "Pick up action figure",
+            "material": "plastic",
+            "model": "pickups/action_figure_blackpanther",
+            "name": "blackpanther_actionfigure",
+            "nocollide": true,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "randompickups": 0,
+            "smartent": false,
+            "spawnscript": "common/actionfigures/blackpanther",
+            "structure": 2,
+            "team": "hero",
+            "variablename": "r_af_bp"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actdistance": 60,
+            "acteffect": "base/misc/techstation_focus",
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "actscript": "permanentStatBoost('_ACTIVATOR_','focus')",
+            "actsound": "zone_shared/object/techstation",
+            "animstarton": true,
+            "classname": "rememberent",
+            "description": "Pick up focus upgrade",
+            "material": "solid_metal",
+            "model": "pickups/focus_pickup",
+            "name": "upgrade_focus",
+            "nocollide": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "randompickups": 0,
+            "structure": 2,
+            "team": "hero",
+            "variablename": "r_upgrade_f"
+        },
+        "entity": {
+            "classname": "physent",
+            "deatheffect": "base/material/break/brk_electric",
+            "deathsound": "death_style/ds_electrical_m",
+            "deathspawn": "console_01_heli_b_d",
+            "fxlevel": 2,
+            "health": 100,
+            "material": "electronics",
+            "model": "heli_carrier/console_01_heli_b",
+            "name": "console_01_heli_b",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 0
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "actonuse": true,
+            "actsound": "zone_shared/heli/heli_door",
+            "autoclosedelay": 0,
+            "classname": "doorent",
+            "material": "solid_metal",
+            "model": "heli_carrier/door_01_heli_d",
+            "name": "door_01_heli_d",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2,
+            "toggleonact": true
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "hollow_metal",
+            "model": "heli_carrier/pipe_10x20_heli_e",
+            "name": "pipe_10x20_heli_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "hollow_metal",
+            "model": "heli_carrier/pipe_5x20_heli_e",
+            "name": "pipe_5x20_heli_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "classname": "physent",
+            "deatheffect": "base/material/break/brk_metal",
+            "deathsound": "death_style/ds_metal_hollow_l",
+            "deathspawn": "pipe_curved_01_heli_b_d",
+            "fxlevel": 3,
+            "health": 100,
+            "material": "hollow_metal",
+            "model": "heli_carrier/pipe_curved_01_heli_b",
+            "name": "pipe_curved_01_heli_b",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 1
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "solid_metal",
+            "model": "heli_carrier/support_holes_01_heli_e",
+            "name": "support_holes_01_heli_e",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "structure": 2
+        },
+        "entity": {
+            "actleader": true,
+            "actmatchteam": true,
+            "boxcollision": true,
+            "cameramagtype": 0,
+            "classname": "cameramagnetent",
+            "name": "camera_magnet",
+            "nocollide": true,
+            "team": "hero"
+        },
+        "entity": {
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "dynamic_clip",
+            "nocollide": false
+        },
+        "entity": {
+            "classname": "lightent",
+            "lightcolor": "1 1 1",
+            "lightradius": 200,
+            "name": "lightent",
+            "nocollide": true,
+            "startoff": false
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "loopfxstarton": true,
+            "name": "loop_effect",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "classname": "ent",
+            "name": "null",
+            "nocollide": true
+        },
+        "entity": {
+            "allinone": true,
+            "classname": "playerstartent",
+            "name": "player_start_all",
+            "nocollide": true
+        },
+        "entity": {
+            "classname": "actionent",
+            "name": "relay",
+            "nocollide": true
+        },
+        "entity": {
+            "actmatchteam": true,
+            "actontouch": true,
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "trigger_touch",
+            "nocollide": true,
+            "team": "hero"
+        },
+        "entity": {
+            "alpha": 0.7,
+            "alphanextgen": 0.5,
+            "ambienteffect": "base/misc/misc_waterambient",
+            "classname": "waterent",
+            "colornextgen": "0 0.2 0.85",
+            "density": 10,
+            "diffusemap": "textures/white",
+            "name": "water",
+            "nocollide": true,
+            "normalmap": "textures/nextgen/subtleripples_n",
+            "specularmap": "textures/white",
+            "splasheffect": "base/misc/misc_watersplash",
+            "texture": "textures/water.png",
+            "texturescalenextgen": 1,
+            "wakeeffect": "base/misc/misc_waterwake"
+        },
+        "entity": {
+            "classname": "waypointent",
+            "name": "waypoint",
+            "nocollide": true
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "boxcollision": true,
+            "classname": "zonelinkent",
+            "description": "Enter next area",
+            "name": "zone_link",
+            "nocollide": false,
+            "team": "hero"
+        },
+        "entinst": {
+            "type": "namor_spawner",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "namor_spawner",
+                "orient": "0 0 -1.5708",
+                "pos": "-195.734 -999.922 78.7534"
+            }
+        },
+        "entinst": {
+            "type": "namorita_spawn",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "namorita_spawn",
+                "orient": "0 0 -0.785398",
+                "pos": "-254.079 -1075.48 60"
+            }
+        },
+        "entinst": {
+            "type": "ss_atlanteanchampion_a04",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteanchampion_a04",
+                "orient": "0 0 1.5708",
+                "pos": "-541.247 1492.76 270.982"
+            }
+        },
+        "entinst": {
+            "type": "namor_defend8",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "namor_defend8",
+                "orient": "0 0 1.74533",
+                "pos": "-12.1104 -741.276 226.247"
+            }
+        },
+        "entinst": {
+            "type": "namor_defend_n1",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "namor_defend_n1",
+                "orient": "0 0 1.74533",
+                "pos": "-12.1104 -818.139 226.247"
+            }
+        },
+        "entinst": {
+            "type": "ss_atlanteandefender_a13",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteandefender_a13",
+                "orient": "0 0 1.5708",
+                "pos": "-573.64 1679.15 270.982"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteandefender_a13",
+                "orient": "0 0 1.5708",
+                "pos": "-243.299 481.642 270.982"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteandefender_a13",
+                "orient": "0 0 1.5708",
+                "pos": "-468.047 1679.15 270.982"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteandefender_a13",
+                "orient": "0 0 1.22173",
+                "pos": "-75.8967 1021.23 216.612"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteandefender_a13",
+                "orient": "0 0 1.22173",
+                "pos": "-252.439 1021.23 216.612"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteandefender_a13",
+                "orient": "0 0 2.0944",
+                "pos": "-189.922 85.6533 123.733"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteandefender_a13",
+                "orient": "0 0 1.5708",
+                "pos": "-146.732 481.642 270.982"
+            }
+        },
+        "entinst": {
+            "type": "namor_defend2",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "namor_defend2",
+                "orient": "0 0 1.5708",
+                "pos": "-326.185 -926.832 270.982"
+            }
+        },
+        "entinst": {
+            "type": "namor_defend3",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "namor_defend3",
+                "orient": "0 0 1.5708",
+                "pos": "-43.0882 -926.832 270.982"
+            }
+        },
+        "entinst": {
+            "type": "atlanteandefender03",
+            "inst": {
+                "extents": "-12.0001 -17.9998 0 35.9999 18.0002 84",
+                "name": "atlanteandefender03",
+                "orient": "0 0 -0.261799",
+                "pos": "-435.051 3092.58 101.036"
+            },
+            "inst": {
+                "extents": "-12.0001 -18 0 35.9999 18 84",
+                "name": "atlanteandefender1",
+                "orient": "0 0 1.22173",
+                "pos": "-322.395 2763.9 146.942"
+            },
+            "inst": {
+                "extents": "-11.9999 -18 0 36.0001 18 84",
+                "name": "atlanteandefender2",
+                "orient": "0 0 2.0944",
+                "pos": "-214.828 2747.67 110.624"
+            },
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "atlanteandefender04",
+                "orient": "0 0 -2.61799",
+                "pos": "-100.305 3104.83 140.018"
+            }
+        },
+        "entinst": {
+            "type": "namor_defend_n2",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "namor_defend_n2",
+                "orient": "0 0 1.5708",
+                "pos": "-374.05 -810.366 226.247"
+            }
+        },
+        "entinst": {
+            "type": "namor_defend7",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "namor_defend7",
+                "orient": "0 0 1.5708",
+                "pos": "-398.301 -751.871 226.247"
+            }
+        },
+        "entinst": {
+            "type": "ss_atlanteandefender_a_leader01",
+            "inst": {
+                "extents": "-12 -18 0 36 18 84",
+                "name": "ss_atlanteandefender_a_leader01",
+                "orient": "0 0 1.309",
+                "pos": "-153.829 949.727 216.612"
+            }
+        },
+        "entinst": {
+            "type": "breathing_tank3",
+            "inst": {
+                "name": "breathing_tank3",
+                "orient": "0 0 3.14159",
+                "pos": "1949.74 2820.48 -119.788"
+            },
+            "inst": {
+                "name": "breathing_tank2",
+                "pos": "2249.74 3059.52 -119.788"
+            },
+            "inst": {
+                "name": "breathing_tank1",
+                "pos": "1930.22 3059.52 -119.788"
+            },
+            "inst": {
+                "name": "breathing_tank4",
+                "orient": "0 0 3.14159",
+                "pos": "2268.91 2820.48 -119.788"
+            }
+        },
+        "entinst": {
+            "type": "column_01_5x20_atl_e",
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "49.415 104.851 -60"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "123.54 -1067.04 60.3492"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-514.968 -1067.04 60.3492"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-514.968 -428.482 60.3492"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "123.565 -428.482 60.3492"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "-124.701 -742.377 0.620621"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "-273.282 -742.377 0.620621"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-514.968 -587.286 60.3492"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-514.968 -908.244 60.3492"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "124.098 -587.286 60.3492"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "124.098 -908.244 60.3492"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "49.415 253.432 -60"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-181.415 1439.31 28.6029"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-181.415 1619.71 28.6029"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "-496.874 -673.736 0.620621"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "-496.874 -822.317 0.620621"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "108.212 -673.186 0.620621"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "108.212 -821.767 0.620621"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "157.41 578.986 1.17011"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-285.604 -237.859 59.7277"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-105.881 -237.859 59.7277"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-285.604 -1257.46 59.7277"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-105.88 -1257.46 59.7277"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "orient": "0 -0.0872664 0",
+                "pos": "-136.82 2940.7 -59.1458"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "orient": "0.0886058 -0.173862 -0.0153666",
+                "pos": "-94.9068 2677.92 -63.6866"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "orient": "-0.0875983 0.0869337 -0.00756741",
+                "pos": "-477.491 2390.76 -63.6866"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-558.416 -1401.55 -0.340525"
+            },
+            "inst": {
+                "name": "column_01_5x20_atl_e",
+                "pos": "-181.415 1233.58 28.6029"
+            }
+        },
+        "entinst": {
+            "type": "column_arch_atl_e12",
+            "inst": {
+                "name": "column_arch_atl_e12",
+                "orient": "0 0 3.14159",
+                "pos": "-88.0696 390.796 0.277279"
+            },
+            "inst": {
+                "name": "column_arch_atl_e12",
+                "pos": "-307.544 390.796 0.277275"
+            },
+            "inst": {
+                "name": "column_arch_atl_e12",
+                "orient": "0 0 3.14159",
+                "pos": "-87.467 -29.9442 0.540432"
+            },
+            "inst": {
+                "name": "column_arch_atl_e12",
+                "pos": "-306.942 -29.9443 0.540428"
+            }
+        },
+        "entinst": {
+            "type": "column_slab_20ft_atl_e",
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "-514.037 -518.845 300.253"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "123.993 -518.845 300.253"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "123.993 -998.487 300.253"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "-514.037 -998.487 300.253"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "pos": "-204.643 -238.046 300.253"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "pos": "-204.643 -1257.22 300.253"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "-180.484 1302.02 268.506"
+            },
+            "inst": {
+                "name": "column_slab_20ft_atl_e",
+                "orient": "0 0 1.5708",
+                "pos": "-181.087 1547.38 268.506"
+            }
+        },
+        "entinst": {
+            "type": "namor_console",
+            "inst": {
+                "name": "namor_console",
+                "pos": "-195.774 -1112.09 59.8099"
+            }
+        },
+        "entinst": {
+            "type": "atl3_zonedoor",
+            "inst": {
+                "name": "atl3_zonedoor",
+                "orient": "0 0 -1.5708",
+                "pos": "-904.979 -900.298 0"
+            },
+            "inst": {
+                "name": "atl2_zonedoor",
+                "pos": "-179.702 -1624.98 0"
+            }
+        },
+        "entinst": {
+            "type": "dive_chamber",
+            "inst": {
+                "name": "dive_chamber",
+                "pos": "2219.96 -1140.1 -123.872"
+            }
+        },
+        "entinst": {
+            "type": "roof_20x10_atl_e",
+            "inst": {
+                "name": "roof_20x10_atl_e",
+                "pos": "49.5394 179.73 154.277"
+            },
+            "inst": {
+                "name": "roof_20x10_atl_e",
+                "orient": "0 0 -1.5708",
+                "pos": "-198.403 -742.501 214.897"
+            },
+            "inst": {
+                "name": "roof_20x10_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "108.087 -748.065 214.897"
+            },
+            "inst": {
+                "name": "roof_20x10_atl_e",
+                "orient": "0.0834647 0.0449586 -0.1687",
+                "pos": "-406.721 172.687 -24.501"
+            },
+            "inst": {
+                "name": "roof_20x10_atl_e",
+                "orient": "0 0 3.14159",
+                "pos": "-496.998 -748.615 214.897"
+            }
+        },
+        "entinst": {
+            "type": "namor_bubble",
+            "inst": {
+                "name": "namor_bubble",
+                "pos": "-195.607 -1003.48 60.9922"
+            }
+        },
+        "entinst": {
+            "type": "blackpanther_actionfigure01",
+            "inst": {
+                "name": "blackpanther_actionfigure01",
+                "orient": "0 0 2.0944",
+                "pos": "2128.65 -1536.46 6.62893"
+            }
+        },
+        "entinst": {
+            "type": "upgrade_focus01",
+            "inst": {
+                "name": "upgrade_focus01",
+                "pos": "2243.43 3471.06 0"
+            }
+        },
+        "entinst": {
+            "type": "console_01_heli_b01",
+            "inst": {
+                "name": "console_01_heli_b01",
+                "orient": "0 0 -0.785398",
+                "pos": "2029.73 -1331.07 0"
+            }
+        },
+        "entinst": {
+            "type": "door_01_heli_d01",
+            "inst": {
+                "name": "door_01_heli_d01",
+                "orient": "0 0 -1.5708",
+                "pos": "2100 3658.33 0.0835421"
+            },
+            "inst": {
+                "name": "door_01_heli_d01",
+                "orient": "0 0 -1.5708",
+                "pos": "2100 2224.06 3.71269"
+            },
+            "inst": {
+                "name": "door_01_heli_d01",
+                "orient": "0 0 1.5708",
+                "pos": "2220.51 -546.277 3.71269"
+            }
+        },
+        "entinst": {
+            "type": "pipe_10x20_heli_e",
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "pos": "1740.16 2459.54 120"
+            },
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "pos": "2459.93 2459.54 -120"
+            },
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "orient": "0 0 -1.5708",
+                "pos": "2220.89 -1546.63 0.477398"
+            },
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "pos": "1740 3420 119.708"
+            },
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "pos": "1740.16 2459.54 -120"
+            },
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "pos": "2459.93 3420 -120"
+            },
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "pos": "1740 3420 -120"
+            },
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "pos": "2459.93 3420 120"
+            },
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "pos": "2459.93 2459.54 120"
+            },
+            "inst": {
+                "name": "pipe_10x20_heli_e",
+                "pos": "2627.63 -1139.88 0.477398"
+            }
+        },
+        "entinst": {
+            "type": "pipe_5x20_heli_e",
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "pos": "2233.4 2713.04 120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "pos": "2233.4 2713.04 -120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "pos": "2233.4 3166.63 -120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "pos": "2233.4 3166.63 120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "pos": "1966.7 3166.63 120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "pos": "1966.7 3166.63 -120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "pos": "1966.7 2713.04 -120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "orient": "0 0 -3.14159",
+                "pos": "2104.11 -1255.84 -120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "orient": "0 0 -3.14159",
+                "pos": "2104.11 -1255.84 120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "orient": "0 0 -3.14159",
+                "pos": "2335.56 -1255.84 120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "orient": "0 0 -3.14159",
+                "pos": "2335.56 -1023.92 120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "orient": "0 0 -3.14159",
+                "pos": "2335.56 -1023.92 -120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "orient": "0 0 -3.14159",
+                "pos": "2104.11 -1023.92 120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "orient": "0 0 -3.14159",
+                "pos": "2104.11 -1023.92 -120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "pos": "1966.7 2713.04 120"
+            },
+            "inst": {
+                "name": "pipe_5x20_heli_e",
+                "orient": "0 0 -3.14159",
+                "pos": "2335.56 -1255.84 -120"
+            }
+        },
+        "entinst": {
+            "type": "pipe_curved_01_heli_b",
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "pos": "1800 2940 -120"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "orient": "0 0 -0.785398",
+                "pos": "1752.15 2807.93 -120"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "pos": "1805.59 -1140.16 0.646301"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "orient": "0 0 0.785398",
+                "pos": "1747.1 3067.96 -120"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "orient": "0 0 2.3562",
+                "pos": "2506.56 -1426.22 0.646301"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "orient": "0 0 0.785399",
+                "pos": "1933.41 -1426.22 0.646301"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "orient": "0 0 -2.35619",
+                "pos": "2451.06 2811.63 -120"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "orient": "0 0 -3.14159",
+                "pos": "2398.16 2939.59 -120"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "orient": "0 0 2.35619",
+                "pos": "2449.15 3071.65 -120"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "orient": "0 0 -0.785398",
+                "pos": "1933.41 -854.119 0.646301"
+            },
+            "inst": {
+                "name": "pipe_curved_01_heli_b",
+                "orient": "0 0 -2.35619",
+                "pos": "2506.56 -854.119 0.646301"
+            }
+        },
+        "entinst": {
+            "type": "support_holes_01_heli_e",
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 2.35619",
+                "pos": "2382.35 -977.391 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 -2.35619",
+                "pos": "2057.88 -977.391 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "pos": "2099.94 3420.15 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 1.5708",
+                "pos": "1881.28 3479.97 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 1.5708",
+                "pos": "1881.28 3360.05 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 1.5708",
+                "pos": "2319.33 3360.1 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 1.5708",
+                "pos": "2319.33 3479.97 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 1.5708",
+                "pos": "1881.28 2401.05 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 1.5708",
+                "pos": "1881.28 2520.35 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 1.5708",
+                "pos": "2319.33 2520.35 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 1.5708",
+                "pos": "2319.33 2401.05 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 2.35619",
+                "pos": "2016.4 3216.11 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 -2.35619",
+                "pos": "2183.51 3216.23 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 -2.35619",
+                "pos": "2016.4 2663.35 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 2.35619",
+                "pos": "2183.51 2663.73 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 -0.785398",
+                "pos": "2057.88 -1302.06 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "pos": "2099.94 2460.66 0"
+            },
+            "inst": {
+                "name": "support_holes_01_heli_e",
+                "orient": "0 0 0.785399",
+                "pos": "2382.35 -1302.06 0"
+            }
+        },
+        "entinst": {
+            "type": "tube_cam",
+            "inst": {
+                "extents": "-206.997 -738.693 0 206.997 738.693 217.84",
+                "name": "tube_cam",
+                "pos": "2258.65 820.388 265.569"
+            }
+        },
+        "entinst": {
+            "type": "chamber_clip",
+            "inst": {
+                "extents": "-49.7354 -49.7352 0 49.7354 49.7352 20",
+                "name": "chamber_clip",
+                "pos": "2220 -1140 -140.036"
+            }
+        },
+        "entinst": {
+            "type": "lightent01",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "lightent01",
+                "pos": "2069.09 2540.25 0"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect10",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect10",
+                "pos": "2100.64 1330.94 125.478"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect10",
+                "pos": "2080.44 258.815 125.478"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect29",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect29",
+                "orient": "0 0 -1.13446",
+                "pos": "-63.3043 529.509 4.36758"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect29",
+                "pos": "-186.671 -1382.92 1.22651"
+            },
+            "inst": {
+                "extents": "-6.00011 -6 -6 5.99989 6 6",
+                "name": "loop_effect29",
+                "orient": "0 0 -1.13446",
+                "pos": "-102.814 2299.29 11.4534"
+            },
+            "inst": {
+                "extents": "-5.99999 -5.99999 -6 6.00001 6.00001 6",
+                "name": "loop_effect29",
+                "orient": "0 0 -2.53073",
+                "pos": "-197.788 1348.99 32.2476"
+            },
+            "inst": {
+                "extents": "-5.99998 -6 -6 6.00002 6 6",
+                "name": "loop_effect29",
+                "orient": "0 0 -1.13446",
+                "pos": "-719.58 1044.71 9.55917"
+            },
+            "inst": {
+                "extents": "-6.00008 -5.99999 -6 5.99992 6.00001 6",
+                "name": "loop_effect29",
+                "orient": "0 0 -1.13446",
+                "pos": "-258.905 3054.66 1.41146"
+            },
+            "inst": {
+                "extents": "-6 -5.99999 -6 6 6.00001 6",
+                "name": "loop_effect29",
+                "orient": "0 0 -1.13446",
+                "pos": "-29.4112 1044.71 61.4613"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect28",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect28",
+                "pos": "2449.07 -1242.58 0"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect28",
+                "pos": "1890.97 -1060.33 0"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect28",
+                "pos": "1842.48 -1239.54 0"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect28",
+                "pos": "2216.71 2402.49 0"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect28",
+                "pos": "2133.2 -1519.04 0"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect28",
+                "pos": "1965.73 2454.94 0"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect28",
+                "pos": "2065.48 3196.96 0"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect28",
+                "pos": "2022.99 -843.969 0"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect28",
+                "pos": "2224.07 3471.47 0"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect24",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect24",
+                "pos": "-61.5126 163.233 -22.2019"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect24",
+                "pos": "-535.143 32.7471 -22.2019"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect23",
+            "inst": {
+                "extents": "-6 -6.00005 -6 6 5.99995 6",
+                "name": "loop_effect23",
+                "orient": "0 0 -0.785398",
+                "pos": "-651.848 -803.034 1.22651"
+            },
+            "inst": {
+                "extents": "-5.99996 -5.99998 -6 6.00004 6.00002 6",
+                "name": "loop_effect23",
+                "orient": "0 0 1.22173",
+                "pos": "-488.587 1646.47 60.6214"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect13",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect13",
+                "pos": "2178.03 2961.98 -118.519"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect13",
+                "pos": "2026.76 2870.48 -118.519"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect08",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect08",
+                "pos": "-193.559 -922.98 61.4613"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect07",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect07",
+                "pos": "-25.951 268.43 -31.5735"
+            }
+        },
+        "entinst": {
+            "type": "loop_effect06",
+            "inst": {
+                "extents": "-5.99999 -5.99999 -6 6.00001 6.00001 6",
+                "name": "loop_effect06",
+                "orient": "0 0 -1.48353",
+                "pos": "-420.321 -1139.45 23.7493"
+            },
+            "inst": {
+                "extents": "-6.00001 -6 -6 5.99999 6 6",
+                "name": "loop_effect06",
+                "orient": "0 0 -1.48353",
+                "pos": "-63.2169 -298.531 23.7494"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect06",
+                "pos": "-218.633 2655.8 -37.3269"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "loop_effect06",
+                "pos": "-110.062 3314.24 -37.3269"
+            }
+        },
+        "entinst": {
+            "type": "water_weather",
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "water_weather",
+                "pos": "2092.13 1136.73 275.497"
+            },
+            "inst": {
+                "extents": "-6 -6.00012 -6 6 5.99988 6",
+                "name": "water_weather2",
+                "orient": "0 0 2.96706",
+                "pos": "-88.6425 3243.41 120.816"
+            }
+        },
+        "entinst": {
+            "type": "from_glass_tube",
+            "inst": {
+                "extents": "-6.00009 -6.0001 -6 5.99991 5.9999 6",
+                "name": "from_glass_tube",
+                "orient": "0 0 1.5708",
+                "pos": "2100.2 2339.58 6"
+            },
+            "inst": {
+                "extents": "-6 -5.99989 -6 6 6.00011 6",
+                "name": "second_room_null",
+                "orient": "0 0 -1.5708",
+                "pos": "2220.14 -656.367 0.77672"
+            },
+            "inst": {
+                "extents": "-6.00001 -6.00001 -6 5.99999 5.99999 6",
+                "name": "glass_tube01",
+                "orient": "0 0 1.5708",
+                "pos": "2260.24 252.456 308.485"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "namorita_spot",
+                "orient": "0 0 2.61799",
+                "pos": "-329.638 -1051.81 64.2529"
+            },
+            "inst": {
+                "extents": "-6.00002 -6 -6 5.99998 6 6",
+                "name": "hero2_namor_free_spot",
+                "orient": "0 0 2.44346",
+                "pos": "-139.783 -1054.15 86.6957"
+            },
+            "inst": {
+                "extents": "-5.99999 -6 -6 6.00001 6 6",
+                "name": "from_above",
+                "orient": "0 0 -1.5708",
+                "pos": "-145.271 3214.64 2.28349"
+            },
+            "inst": {
+                "extents": "-5.99998 -6 -6 6.00002 6 6",
+                "name": "from_above2",
+                "orient": "0 0 -1.5708",
+                "pos": "-125.215 3321.11 79.2386"
+            },
+            "inst": {
+                "extents": "-6.00007 -6.00001 -6 5.99993 5.99999 6",
+                "name": "hero3_pos",
+                "orient": "0 0 -1.5708",
+                "pos": "1938.4 3051.82 -112.942"
+            },
+            "inst": {
+                "extents": "-5.99988 -6.00001 -6 6.00012 5.99999 6",
+                "name": "hero2_pos",
+                "orient": "0 0 -1.5708",
+                "pos": "2257.88 3051.82 -112.942"
+            },
+            "inst": {
+                "extents": "-6.00001 -6.00002 -6 5.99999 5.99998 6",
+                "name": "hero3_namor_free_spot",
+                "orient": "0 0 -2.44346",
+                "pos": "-148.876 -949.744 86.6957"
+            },
+            "inst": {
+                "extents": "-5.99999 -6.00001 -6 6.00001 5.99999 6",
+                "name": "hero4_namor_free_spot",
+                "orient": "0 0 -0.785398",
+                "pos": "-251.165 -949.744 86.6957"
+            },
+            "inst": {
+                "extents": "-5.99988 -5.99997 -6 6.00012 6.00003 6",
+                "name": "hero1_pos",
+                "orient": "0 0 1.5708",
+                "pos": "2260.08 2827.34 -112.942"
+            },
+            "inst": {
+                "extents": "-6 -5.99998 -6 6 6.00002 6",
+                "name": "namor_spot",
+                "orient": "0 0 -0.523599",
+                "pos": "-378.542 -1024.09 67.2941"
+            },
+            "inst": {
+                "extents": "-6.00001 -6 -6 5.99999 6 6",
+                "name": "hero4_namor_spot",
+                "orient": "0 0 -2.00713",
+                "pos": "-332.935 -963.26 86.6957"
+            },
+            "inst": {
+                "extents": "-5.99999 -6.00003 -6 6.00001 5.99997 6",
+                "name": "hero3_namor_spot",
+                "orient": "0 0 -0.959931",
+                "pos": "-397.056 -962.555 86.6957"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "hero2_namor_spot",
+                "pos": "-435.099 -1025.34 86.6957"
+            },
+            "inst": {
+                "extents": "-5.99999 -5.99998 -6 6.00001 6.00002 6",
+                "name": "hero1_namor_spot",
+                "orient": "0 0 0.436332",
+                "pos": "-416.504 -1080.82 86.6957"
+            },
+            "inst": {
+                "extents": "-6.00007 -5.99997 -6 5.99993 6.00003 6",
+                "name": "hero4_pos",
+                "orient": "0 0 1.5708",
+                "pos": "1940.59 2827.34 -112.942"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "magnent_cam",
+                "pos": "1876.19 820.388 462.066"
+            },
+            "inst": {
+                "extents": "-6 -5.99999 -6 6 6.00001 6",
+                "name": "glass_tube",
+                "orient": "0 0 -1.5708",
+                "pos": "2260.24 1453.04 320.686"
+            },
+            "inst": {
+                "extents": "-6 -6 -6 6 6 6",
+                "name": "encounter1",
+                "pos": "-265.657 2905.13 57.1511"
+            },
+            "inst": {
+                "extents": "-5.99997 -5.99991 -6 6.00003 6.00009 6",
+                "name": "hero1_open_spot",
+                "orient": "0 0 -1.22173",
+                "pos": "2172.6 2925.87 -120"
+            },
+            "inst": {
+                "extents": "-6.0001 -5.99999 -6 5.9999 6.00001 6",
+                "name": "hero2_open_spot",
+                "orient": "0 0 -1.5708",
+                "pos": "2122.12 2961.36 -120"
+            },
+            "inst": {
+                "extents": "-5.99994 -6 -6 6.00006 6 6",
+                "name": "hero3_open_spot",
+                "orient": "0 0 -2.00713",
+                "pos": "2062.02 2966.95 -120"
+            },
+            "inst": {
+                "extents": "-5.99989 -6.00002 -6 6.00011 5.99998 6",
+                "name": "hero4_open_spot",
+                "orient": "0 0 -1.91986",
+                "pos": "2028.2 2920.03 -120"
+            }
+        },
+        "entinst": {
+            "type": "player_start_all03",
+            "inst": {
+                "extents": "-48.0242 -95.2953 8.80246e-007 71.9758 48.7832 83.9544",
+                "name": "player_start_all03",
+                "orient": "0 0 0.785398",
+                "pos": "-471.035 -1321.78 17.2319"
+            }
+        },
+        "entinst": {
+            "type": "player_start_all02",
+            "inst": {
+                "extents": "-48.0242 -95.2953 0 71.9758 48.7832 83.9544",
+                "name": "player_start_all02",
+                "orient": "0 0 1.5708",
+                "pos": "-184.443 -1391.93 0"
+            }
+        },
+        "entinst": {
+            "type": "player_start_all01",
+            "inst": {
+                "extents": "-48.0243 -95.2953 0 71.9757 48.7832 83.9544",
+                "name": "player_start_all01",
+                "pos": "-658.066 -914.641 0"
+            }
+        },
+        "entinst": {
+            "type": "player_start_all04",
+            "inst": {
+                "extents": "-48.0243 -95.2953 0 71.9757 48.7832 83.9544",
+                "name": "player_start_all04",
+                "orient": "0 0 -1.5708",
+                "pos": "-130.257 3264.42 20.3926"
+            }
+        },
+        "entinst": {
+            "type": "mermaid_relay",
+            "inst": {
+                "extents": "-6 -6 0 6 6 12",
+                "name": "mermaid_relay",
+                "pos": "-160.623 -641.745 0"
+            }
+        },
+        "entinst": {
+            "type": "namor_trigger_2",
+            "inst": {
+                "extents": "-225 -76.5915 0 225 76.5915 281.179",
+                "name": "namor_trigger_2",
+                "pos": "-518.941 -663.711 0"
+            }
+        },
+        "entinst": {
+            "type": "trigger_touch04",
+            "inst": {
+                "extents": "-60 -18 0 60 18 120",
+                "name": "trigger_touch04",
+                "pos": "2258.74 168.079 300.234"
+            }
+        },
+        "entinst": {
+            "type": "no_namor",
+            "inst": {
+                "extents": "-66.4972 -19.4852 0 66.4972 19.4852 97.7355",
+                "name": "no_namor",
+                "pos": "-180.981 -1557.01 5.59705"
+            }
+        },
+        "entinst": {
+            "type": "trigger_touch05",
+            "inst": {
+                "extents": "-60 -18 0 60 18 120",
+                "name": "trigger_touch05",
+                "pos": "2220.93 -564.282 0"
+            }
+        },
+        "entinst": {
+            "type": "trigger_touch06",
+            "inst": {
+                "extents": "-60 -18 0 60 18 120",
+                "name": "trigger_touch06",
+                "pos": "2259.95 1526.31 303.432"
+            }
+        },
+        "entinst": {
+            "type": "namor_trigger_1",
+            "inst": {
+                "extents": "-75.291 -76.5915 0 75.291 76.5915 281.179",
+                "name": "namor_trigger_1",
+                "pos": "-15.4244 -663.711 0"
+            }
+        },
+        "entinst": {
+            "type": "spawn_atlantians",
+            "inst": {
+                "extents": "-490.035 -45.5636 0 490.035 45.5636 254.223",
+                "name": "spawn_atlantians",
+                "pos": "-252.511 3008.8 -23.3477"
+            }
+        },
+        "entinst": {
+            "type": "trigger_touch02",
+            "inst": {
+                "extents": "-60 -18 0 60 18 120",
+                "name": "trigger_touch02",
+                "pos": "2100 2244.53 0"
+            }
+        },
+        "entinst": {
+            "type": "dive_chamber_trigger",
+            "inst": {
+                "extents": "-60 -60 0 60 60 50",
+                "name": "dive_chamber_trigger",
+                "pos": "2220 -1140 -196.747"
+            }
+        },
+        "entinst": {
+            "type": "water",
+            "inst": {
+                "extents": "-60 -60 0 60 60 27.9883",
+                "name": "water",
+                "pos": "2220 -1140 -192.18"
+            }
+        },
+        "entinst": {
+            "type": "wp_hero3_out02",
+            "inst": {
+                "extents": "-6 -6.00009 -6 6 5.99991 6",
+                "name": "wp_hero3_out02",
+                "orient": "0 0 -0.261799",
+                "pos": "2052.99 2970.6 -120"
+            },
+            "inst": {
+                "extents": "-6.0001 -5.99999 -6 5.9999 6.00001 6",
+                "name": "wp_hero2_out02",
+                "orient": "0 0 -3.05433",
+                "pos": "2170.58 2977.37 -120"
+            },
+            "inst": {
+                "extents": "-6.00012 -6.00009 -6 5.99988 5.99991 6",
+                "name": "wp_hero1_out02",
+                "orient": "0 0 -3.14159",
+                "pos": "2183.1 2905.7 -118.333"
+            },
+            "inst": {
+                "extents": "-6 -5.99994 -6 6 6.00006 6",
+                "name": "wp_hero4_out02",
+                "pos": "2059.33 2909.05 -120"
+            },
+            "inst": {
+                "extents": "-5.99995 -6.00009 -6 6.00005 5.99991 6",
+                "name": "wp_hero3_out01",
+                "orient": "0 0 -0.872665",
+                "pos": "1942 2970.58 -120"
+            },
+            "inst": {
+                "extents": "-5.99991 -6 -6 6.00009 6 6",
+                "name": "wp_hero2_out01",
+                "orient": "0 0 -2.0944",
+                "pos": "2255.17 2977.35 -120"
+            },
+            "inst": {
+                "extents": "-6 -5.99994 -6 6 6.00006 6",
+                "name": "wp_hero1_out01",
+                "orient": "0 0 2.18166",
+                "pos": "2253.11 2905.68 -118.333"
+            },
+            "inst": {
+                "extents": "-5.99999 -6 -6 6.00001 6 6",
+                "name": "wp_hero4_out01",
+                "orient": "0 0 0.959931",
+                "pos": "1944.97 2909.03 -120"
+            }
+        },
+        "entinst": {
+            "type": "wp_itago01",
+            "inst": {
+                "extents": "-5.99999 -6 -6 6.00001 6 6",
+                "name": "wp_itago01",
+                "orient": "0 0 1.5708",
+                "pos": "-233.334 -1157.77 64.2529"
+            },
+            "inst": {
+                "extents": "-6 -6.00005 -6 6 5.99995 6",
+                "name": "wp_itago_next01",
+                "orient": "0 0 2.79253",
+                "pos": "-328.981 -1043.03 64.2529"
+            }
+        },
+        "entinst": {
+            "type": "wp_heroA01",
+            "inst": {
+                "extents": "-6 -6.00002 -6 6 5.99998 6",
+                "name": "wp_heroA01",
+                "orient": "0 0 -0.872665",
+                "pos": "2253.11 2905.01 -118.333"
+            },
+            "inst": {
+                "extents": "-6.00004 -6.00001 -6 5.99996 5.99999 6",
+                "name": "wp_heroB01",
+                "orient": "0 0 1.13446",
+                "pos": "2255.17 2976.67 -120"
+            },
+            "inst": {
+                "extents": "-6.0001 -6 -6 5.9999 6 6",
+                "name": "wp_heroD01",
+                "orient": "0 0 -2.0944",
+                "pos": "1944.97 2908.36 -120"
+            },
+            "inst": {
+                "extents": "-5.99998 -6.00004 -6 6.00002 5.99996 6",
+                "name": "wp_heroC01",
+                "orient": "0 0 2.35619",
+                "pos": "1942 2969.9 -120"
+            }
+        },
+        "entinst": {
+            "type": "link_atlantis2",
+            "inst": {
+                "extents": "-20.1076 -146.6 0 20.1076 146.6 165",
+                "name": "link_atlantis2",
+                "orient": "0 0 -1.5708",
+                "pos": "-178.983 -1596.12 0"
+            }
+        },
+        "entinst": {
+            "type": "link_atlantis3",
+            "inst": {
+                "extents": "-20.1076 -60 0 20.1076 60 165",
+                "name": "link_atlantis3",
+                "pos": "-843.427 -903.857 0"
+            }
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "Namor",
+            "classname": "monsterspawnerent",
+            "instantspawn": false,
+            "monster_name": "namorbubble",
+            "monster_noaidisable": true,
+            "monster_persistent": false,
+            "monster_spawnexactlocation": true,
+            "monster_spawnscript": "act1/atlantis/atlantis1/namor_spawn",
+            "name": "namor_spawner",
+            "nocollide": true,
+            "resetstate": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "Namorita",
+            "classname": "monsterspawnerent",
+            "instantspawn": false,
+            "monster_actonuse": true,
+            "monster_actscript": "act1/atlantis/atlantis1/namorita_conversation",
+            "monster_hinttype": "none",
+            "monster_name": "namorita",
+            "monster_persistent": false,
+            "monster_spawnexactlocation": true,
+            "monster_spawnscript": "act1/atlantis/atlantis1/namorita_spawn",
+            "name": "namorita_spawn",
+            "nocollide": true,
+            "resetstate": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanChampion_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "ss_atlanteanchampion_a04",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": false,
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "atlanteandefender03",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actscript": "act1/atlantis/atlantis1/spawn_defend7",
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": false,
+            "monster_hinttype": "objective",
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "namor_defend3",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": false,
+            "monster_deathscript": "act1/atlantis/atlantis1/spawn_defend6",
+            "monster_hinttype": "objective",
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "namor_defend2",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "ss_atlanteandefender_a13",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": false,
+            "monster_deathscript": "act('mermaid_relay','mermaid_relay')",
+            "monster_hinttype": "objective",
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "namor_defend_n1",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": false,
+            "monster_deathscript": "act('mermaid_relay','mermaid_relay')",
+            "monster_deathtargets": "namor_defend_n1",
+            "monster_hinttype": "objective",
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "namor_defend8",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": true,
+            "monster_leader": true,
+            "monster_leaderpowerup": "random_no_invuln",
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "ss_atlanteandefender_a_leader01",
+            "nocollide": true
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": false,
+            "monster_deathscript": "act('mermaid_relay','mermaid_relay')",
+            "monster_deathtargets": "namor_defend_n2",
+            "monster_hinttype": "objective",
+            "monster_leader": true,
+            "monster_leaderpowerup": "random_no_invuln",
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "namor_defend7",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "actcountremove": 1,
+            "character": "AtlanteanDefender_a",
+            "classname": "monsterspawnerent",
+            "instantspawn": false,
+            "monster_deathscript": "act('mermaid_relay','mermaid_relay')",
+            "monster_hinttype": "objective",
+            "monster_leader": true,
+            "monster_leaderpowerup": "random_no_invuln",
+            "monster_smartent": true,
+            "monster_spawnexactlocation": true,
+            "name": "namor_defend_n2",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "animstarton": false,
+            "classname": "physent",
+            "material": "solid_metal",
+            "model": "atlantis/breathing_tank_sh_atl_a",
+            "name": "breathing_tank3",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "smartent": false,
+            "structure": 2
+        },
+        "entity": {
+            "camerafadeout": true,
+            "classname": "physent",
+            "material": "rock",
+            "model": "atlantis/column_arch_atl_e",
+            "name": "column_arch_atl_e12",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "pathignore": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "actonuse": true,
+            "actscript": "act1/atlantis/atlantis1/openbubble_new",
+            "actsound": "zone_shared/atlantis/console_underwater",
+            "classname": "physent",
+            "description": "Console",
+            "material": "rock",
+            "model": "atlantis/console_water_atl_a",
+            "name": "namor_console",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "smartent": false,
+            "startenabled": false,
+            "structure": 2,
+            "toggleonact": true,
+            "togglestarton": false,
+            "useanimation": "none"
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "autoclosedelay": 0,
+            "classname": "doorent",
+            "material": "rock",
+            "model": "atlantis/door_coral_grate_atl_d",
+            "name": "atl3_zonedoor",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "openposition": 0.9,
+            "openupdown": true,
+            "resetstate": true,
+            "smartent": false,
+            "structure": 2,
+            "toggleonact": true
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "actsound": "zone_shared/mover/door_skrull",
+            "animstarton": false,
+            "autoclosedelay": 0,
+            "classname": "doorent",
+            "material": "solid_metal",
+            "model": "atlantis/door_hatch_atl_a",
+            "name": "dive_chamber",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "openposition": 0.9,
+            "smartent": false,
+            "structure": 2,
+            "toggleonact": true
+        },
+        "entity": {
+            "animstarton": false,
+            "classname": "physent",
+            "material": "energy",
+            "model": "atlantis/u_force_field_bubble_atl_a",
+            "name": "namor_bubble",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "pathignore": true,
+            "randompickups": 0,
+            "smartent": false,
+            "structure": 2
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "actscript": "actionFigureReward('r_af_bp',190,191)",
+            "actsound": "zone_shared/special/beacon",
+            "animstarton": true,
+            "classname": "rememberent",
+            "description": "Pick up action figure",
+            "idnum": 3,
+            "material": "plastic",
+            "model": "pickups/action_figure_blackpanther",
+            "name": "blackpanther_actionfigure01",
+            "nocollide": true,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "randompickups": 0,
+            "smartent": false,
+            "spawnscript": "common/actionfigures/blackpanther",
+            "structure": 2,
+            "team": "hero",
+            "variablename": "r_af_bp"
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "actcountremove": 1,
+            "actdistance": 60,
+            "acteffect": "base/item/item_pickup",
+            "actleader": true,
+            "actonuse": true,
+            "actscript": "common/actionfigures/xpbonus",
+            "actsound": "common/game/pickup_power",
+            "animstarton": true,
+            "classname": "physent",
+            "description": "Experience Points",
+            "fxlevel": 7,
+            "model": "pickups/experience_point",
+            "name": "af_bp_xp",
+            "nocollide": true,
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "persistent": false,
+            "quickuse": true,
+            "smartent": false,
+            "structure": 2
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actdistance": 60,
+            "acteffect": "base/misc/techstation_focus",
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "actscript": "permanentStatBoost('_ACTIVATOR_','focus')",
+            "actsound": "zone_shared/object/techstation",
+            "animstarton": true,
+            "classname": "rememberent",
+            "description": "Pick up focus upgrade",
+            "idnum": 4,
+            "material": "solid_metal",
+            "model": "pickups/focus_pickup",
+            "name": "upgrade_focus01",
+            "nocollide": true,
+            "nopickup": true,
+            "nopush": true,
+            "quickuse": true,
+            "randompickups": 0,
+            "structure": 2,
+            "team": "hero",
+            "variablename": "r_upgrade_f"
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "actonuse": true,
+            "actscript": "act1/atlantis/atlantis1/open_dive_chamber",
+            "actsound": "zone_shared/atlantis/console_underwater",
+            "classname": "physent",
+            "deatheffect": "base/material/break/brk_electric",
+            "deathsound": "death_style/ds_electrical_m",
+            "deathspawn": "console_01_heli_b_d",
+            "description": "Dive Chamber Controls",
+            "fxlevel": 2,
+            "health": 100,
+            "material": "electronics",
+            "model": "heli_carrier/console_01_heli_b",
+            "name": "console_01_heli_b01",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "animstarton": false,
+            "classname": "physent",
+            "deatheffect": "base/material/break/brk_electric",
+            "deathsound": "death_style/ds_electrical_m",
+            "fxlevel": 2,
+            "health": 100,
+            "mass": 0,
+            "material": "electronics",
+            "model": "heli_carrier/console_01_stump_heli_b",
+            "name": "console_01_heli_b_d",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "pathignore": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "actcountdisable": 1,
+            "actonuse": false,
+            "actsound": "zone_shared/heli/heli_door",
+            "autoclosedelay": 0,
+            "classname": "doorent",
+            "material": "solid_metal",
+            "model": "heli_carrier/door_01_heli_d",
+            "name": "door_01_heli_d01",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "randompickups": 0,
+            "startenabled": false,
+            "structure": 2,
+            "toggleonact": true
+        },
+        "entity": {
+            "animstarton": false,
+            "classname": "physent",
+            "deatheffect": "base/material/break/brk_metal",
+            "deathsound": "death_style/ds_metal_hollow_l",
+            "fxlevel": 3,
+            "health": 100,
+            "mass": 0,
+            "material": "hollow_metal",
+            "model": "heli_carrier/pipe_curved_01_stump_heli_b",
+            "name": "pipe_curved_01_heli_b_d",
+            "nogravity": true,
+            "nopickup": true,
+            "nopush": true,
+            "pathignore": true,
+            "randompickups": 0,
+            "structure": 2
+        },
+        "entity": {
+            "actleader": true,
+            "actmatchteam": true,
+            "boxcollision": true,
+            "cameramagtype": 2,
+            "cameratarget": "magnent_cam",
+            "classname": "cameramagnetent",
+            "name": "tube_cam",
+            "nocollide": true,
+            "smartent": false,
+            "team": "hero"
+        },
+        "entity": {
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "chamber_clip",
+            "nocollide": false,
+            "nokillz": true,
+            "smartent": false
+        },
+        "entity": {
+            "classname": "lightent",
+            "lightcolor": "0 0.1 0.1",
+            "lightradius": 200,
+            "name": "lightent01",
+            "nocollide": true,
+            "startoff": false
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "alwaysvisible": true,
+            "classname": "actionent",
+            "loopfx": "map/common/weather_atlantis",
+            "loopfxstarton": false,
+            "name": "water_weather",
+            "nocollide": true,
+            "smartent": false,
+            "toggleonact": true,
+            "togglestarton": false
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "loopfx": "map/atlantis/bubbler_small",
+            "loopfxstarton": true,
+            "name": "loop_effect06",
+            "nocollide": true,
+            "smartent": true,
+            "spawnsoundloop": "zone_shared/atlantis/bubbles"
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "loopfx": "map/atlantis/bubbler_small",
+            "loopfxstarton": true,
+            "name": "loop_effect07",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "fxlevel": 3,
+            "loopfx": "map/atlantis/lightbeam_vertical",
+            "loopfxstarton": true,
+            "name": "loop_effect08",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "loopfx": "map/common/drip30ft",
+            "loopfxstarton": true,
+            "name": "loop_effect13",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "fxlevel": 1,
+            "loopfx": "map/atlantis/lightbeam_vertical",
+            "loopfxstarton": true,
+            "name": "loop_effect23",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "loopfx": "map/atlantis/volcanic_fissure02",
+            "loopfxstarton": true,
+            "name": "loop_effect24",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "loopfx": "map/common/drip20ft",
+            "loopfxstarton": true,
+            "name": "loop_effect28",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "fxlevel": 2,
+            "loopfx": "map/atlantis/lightbeam_vertical",
+            "loopfxstarton": true,
+            "name": "loop_effect29",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "acttogglesloopfx": true,
+            "classname": "actionent",
+            "loopfx": "map/atlantis/volcanic_fissure01",
+            "loopfxstarton": true,
+            "name": "loop_effect10",
+            "nocollide": true,
+            "smartent": true
+        },
+        "entity": {
+            "classname": "ent",
+            "name": "from_glass_tube",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "allinone": true,
+            "classname": "playerstartent",
+            "name": "player_start_all04",
+            "nocollide": true,
+            "prevlink": "link_atlantis1"
+        },
+        "entity": {
+            "allinone": true,
+            "classname": "playerstartent",
+            "name": "player_start_all01",
+            "nocollide": true,
+            "prevlink": "link3_atlantis1",
+            "prevzone": "act1/atlantis/atlantis3"
+        },
+        "entity": {
+            "allinone": true,
+            "classname": "playerstartent",
+            "name": "player_start_all02",
+            "nocollide": true,
+            "prevlink": "link_atlantis1",
+            "prevzone": "act1/atlantis/atlantis2"
+        },
+        "entity": {
+            "allinone": true,
+            "classname": "playerstartent",
+            "name": "player_start_all03",
+            "nocollide": true,
+            "prevlink": "link2_atlantis1",
+            "prevzone": "act1/atlantis/atlantis3"
+        },
+        "entity": {
+            "actcountact": 6,
+            "actscript": "act1/atlantis/atlantis1/namor_defend_defeated_new",
+            "classname": "actionent",
+            "name": "mermaid_relay",
+            "nocollide": true,
+            "smartent": false
+        },
+        "entity": {
+            "actmatchteam": true,
+            "actontouch": true,
+            "actscript": "act1/atlantis/atlantis1/down_to_atlantis",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "dive_chamber_trigger",
+            "nocollide": true,
+            "smartent": false,
+            "startenabled": false,
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actmatchteam": true,
+            "actontouch": false,
+            "actonuse": true,
+            "actscript": "act1/atlantis/atlantis1/to_glass_tube",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "description": "To Underwater Connection Tube",
+            "name": "trigger_touch02",
+            "nocollide": false,
+            "quickuse": true,
+            "team": "hero"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actmatchteam": true,
+            "actontouch": true,
+            "actscript": "act1/atlantis/atlantis1/encounter1",
+            "acttargets": "atlanteandefender1 atlanteandefender2 atlanteandefender03 atlanteandefender04",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "spawn_atlantians",
+            "nocollide": true,
+            "smartent": false,
+            "team": "hero"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actmatchteam": true,
+            "actontouch": true,
+            "actscript": "act1/atlantis/atlantis1/see_namor_in_bubble_new",
+            "acttargets": "namor_defend5 namor_defend4 namor_defend3 namor_defend2 namor_defend1 namor_defend8 namor_defend7",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "namor_trigger_1",
+            "nocollide": true,
+            "resetstate": true,
+            "smartent": false,
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actmatchteam": true,
+            "actontouch": false,
+            "actonuse": true,
+            "actscript": "act1/atlantis/atlantis1/back_to_first",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "description": "To Nanite Control",
+            "name": "trigger_touch06",
+            "nocollide": false,
+            "quickuse": true,
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actmatchteam": true,
+            "actontouch": false,
+            "actonuse": true,
+            "actscript": "act1/atlantis/atlantis1/back_to_tube",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "description": "To Underwater Connection Tube",
+            "name": "trigger_touch05",
+            "nocollide": false,
+            "quickuse": true,
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 3,
+            "actmatchteam": true,
+            "actontouch": true,
+            "actscript": "act1/atlantis/atlantis1/noleavenam",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "no_namor",
+            "nocollide": true,
+            "resetstate": true,
+            "smartent": false,
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actmatchteam": true,
+            "actontouch": false,
+            "actonuse": true,
+            "actscript": "act1/atlantis/atlantis1/to_second_room",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "description": "To Dive Chamber",
+            "name": "trigger_touch04",
+            "nocollide": false,
+            "quickuse": true,
+            "team": "hero"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "actmatchteam": true,
+            "actontouch": true,
+            "actscript": "act1/atlantis/atlantis1/see_namor_in_bubble_new_alt",
+            "acttargets": "namor_defend5 namor_defend4 namor_defend3 namor_defend2 namor_defend1 namor_defend8 namor_defend7",
+            "actteamplayer": true,
+            "boxcollision": true,
+            "classname": "gameent",
+            "name": "namor_trigger_2",
+            "nocollide": true,
+            "resetstate": true,
+            "smartent": false,
+            "team": "hero"
+        },
+        "entity": {
+            "actcountremove": 1,
+            "beeline": true,
+            "classname": "waypointent",
+            "name": "wp_heroA01",
+            "nocollide": true,
+            "smartent": false,
+            "speed": 0.3
+        },
+        "entity": {
+            "beeline": true,
+            "classname": "waypointent",
+            "name": "wp_itago01",
+            "nocollide": true,
+            "smartent": false,
+            "speed": 0.4
+        },
+        "entity": {
+            "actcountremove": 1,
+            "beeline": true,
+            "classname": "waypointent",
+            "name": "wp_hero3_out02",
+            "nocollide": true,
+            "smartent": false,
+            "speed": 0.4
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "boxcollision": true,
+            "classname": "zonelinkent",
+            "description": "Temple of Negrete",
+            "name": "link_atlantis3",
+            "nextzone": "act1/atlantis/atlantis3",
+            "nocollide": false,
+            "smartent": false,
+            "startenabled": false,
+            "team": "hero"
+        },
+        "entity": {
+            "actinactivedelay": 2,
+            "actleader": true,
+            "actmatchteam": true,
+            "actonuse": true,
+            "boxcollision": true,
+            "classname": "zonelinkent",
+            "description": "Atlantean Trenches",
+            "name": "link_atlantis2",
+            "nextzone": "act1/atlantis/atlantis2",
+            "nocollide": false,
+            "smartent": false,
+            "startenabled": false,
+            "team": "hero"
+        }
+    }
+}
