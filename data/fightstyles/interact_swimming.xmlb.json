@@ -1,0 +1,446 @@
+{
+    "FightingStyle": {
+        "FightMove": {
+            "name": "precache",
+            "trigger": {
+                "effect": "base/misc/under_water",
+                "name": "effect",
+                "time": -1
+            }
+        },
+        "FightMove": {
+            "animenum": "ea_victim5",
+            "handler": "ch_swim",
+            "name": "jump",
+            "noncombat": true,
+            "startchaintime": 0.1,
+            "trigger": {
+                "animbased": true,
+                "bolt": "Bip01 L Hand",
+                "effect": "base/misc/under_water_stroke",
+                "name": "effect_sound",
+                "sound": "under_water_stroke",
+                "time": 0.25
+            },
+            "trigger": {
+                "animbased": true,
+                "bolt": "Bip01 R Hand",
+                "effect": "base/misc/under_water_stroke",
+                "name": "effect",
+                "time": 0.25
+            },
+            "chain": {
+                "action": "idle",
+                "result": "jumploop"
+            },
+            "chain": {
+                "action": "special",
+                "result": "jumpland"
+            },
+            "chain": {
+                "action": "attack",
+                "result": "swimattack1"
+            },
+            "chain": {
+                "action": "smash",
+                "result": "attackheavy1"
+            },
+            "chain": {
+                "action": "move",
+                "result": "jump"
+            },
+            "chain": {
+                "action": "powers",
+                "result": "powers"
+            }
+        },
+        "FightMove": {
+            "animenum": "ea_victim1",
+            "blendtime": 0.5,
+            "handler": "ch_move_swim",
+            "name": "jumploop",
+            "noncombat": true,
+            "startchaintime": 0.01,
+            "trigger": {
+                "animbased": true,
+                "bolt": "Bip01 L Hand",
+                "effect": "base/misc/under_water_stroke",
+                "name": "effect_sound",
+                "sound": "under_water_stroke",
+                "time": 0.25
+            },
+            "trigger": {
+                "animbased": true,
+                "bolt": "Bip01 R Hand",
+                "effect": "base/misc/under_water_stroke",
+                "name": "effect",
+                "time": 0.25
+            },
+            "chain": {
+                "action": "idle",
+                "result": "jumploop"
+            },
+            "chain": {
+                "action": "special",
+                "result": "jumpland"
+            },
+            "chain": {
+                "action": "attack",
+                "result": "swimattack1"
+            },
+            "chain": {
+                "action": "smash",
+                "result": "attackheavy1"
+            },
+            "chain": {
+                "action": "move",
+                "result": "jump"
+            },
+            "chain": {
+                "action": "powers",
+                "result": "powers"
+            }
+        },
+        "FightMove": {
+            "inherit": "jumploop",
+            "name": "fallfeetfirst"
+        },
+        "FightMove": {
+            "animenum": "ea_victim1",
+            "blendtime": 0.5,
+            "handler": "ch_move_swim",
+            "name": "jumpland",
+            "noncombat": true,
+            "startchaintime": 0.01,
+            "chain": {
+                "action": "idle",
+                "result": "idle"
+            }
+        },
+        "FightMove": {
+            "aitype": "melee",
+            "animenum": "ea_victim6",
+            "handler": "ch_move_swim",
+            "name": "swimattack1",
+            "trigger": {
+                "movement": 0,
+                "name": "slide",
+                "time": 0
+            },
+            "trigger": {
+                "bolt": "Bip01 L Hand",
+                "effect": "base/misc/under_water_stroke",
+                "name": "effect_sound",
+                "sound": "under_water_stroke",
+                "time": 0.09
+            },
+            "trigger": {
+                "name": "whoosh_light",
+                "time": 0.09
+            },
+            "trigger": {
+                "bolt": "Bip01 L Hand",
+                "life": 0.3,
+                "name": "trail",
+                "offsetend": 12,
+                "time": 0.09
+            },
+            "trigger": {
+                "name": "punch",
+                "time": 0.36
+            },
+            "chain": {
+                "action": "idle",
+                "result": "jumploop"
+            },
+            "chain": {
+                "action": "special",
+                "result": "jumpland"
+            },
+            "chain": {
+                "action": "attack",
+                "result": "swimattack2"
+            },
+            "chain": {
+                "action": "move",
+                "result": "jump"
+            }
+        },
+        "FightMove": {
+            "aitype": "melee",
+            "animenum": "ea_victim7",
+            "handler": "ch_move_swim",
+            "name": "swimattack2",
+            "trigger": {
+                "movement": 0,
+                "name": "slide",
+                "time": 0
+            },
+            "trigger": {
+                "bolt": "Bip01 R Hand",
+                "effect": "base/misc/under_water_stroke",
+                "name": "effect_sound",
+                "sound": "under_water_stroke",
+                "time": 0.16
+            },
+            "trigger": {
+                "name": "whoosh_light",
+                "time": 0.16
+            },
+            "trigger": {
+                "bolt": "Bip01 R Hand",
+                "life": 0.33,
+                "name": "trail",
+                "offsetend": 12,
+                "time": 0.16
+            },
+            "trigger": {
+                "name": "punch",
+                "time": 0.33
+            },
+            "chain": {
+                "action": "idle",
+                "result": "jumploop"
+            },
+            "chain": {
+                "action": "special",
+                "result": "jumpland"
+            },
+            "chain": {
+                "action": "move",
+                "result": "jump"
+            }
+        },
+        "FightMove": {
+            "aitype": "melee",
+            "animenum": "ea_victim8",
+            "handler": "ch_swim_hold_smash",
+            "lockangles": true,
+            "name": "attackheavy1",
+            "playspeed": 1,
+            "powerup_tag": "swimkb",
+            "startchaintime": 0.6,
+            "trigger": {
+                "animbased": true,
+                "bolt": "Bip01 R Hand",
+                "effect": "base/misc/under_water_stroke",
+                "name": "effect_sound",
+                "sound": "under_water_stroke",
+                "time": 0
+            },
+            "trigger": {
+                "charge": 0,
+                "charge_type": "anim",
+                "name": "charge",
+                "time": 0
+            },
+            "trigger": {
+                "loop_timeout": 3,
+                "loop_type": "start",
+                "name": "sound",
+                "sound": "common/melee/kb_charge",
+                "time": 0
+            },
+            "trigger": {
+                "charge": 0,
+                "charge_time": 1,
+                "charged_eventtag": 100,
+                "name": "charge",
+                "tag": 1,
+                "time": 0
+            },
+            "trigger": {
+                "bolt": "Bip01 R Hand",
+                "effect": "base/hit/hit_knockback_charge",
+                "fxlevel": 2,
+                "loop_type": "start",
+                "name": "effect_sound",
+                "next_eventtag": 101,
+                "sound": "common/melee/kb_charge_loop",
+                "tag": 100,
+                "time": -1
+            },
+            "trigger": {
+                "bolt": "Bip01 L Hand",
+                "effect": "base/hit/hit_knockback_charge",
+                "fxlevel": 2,
+                "name": "effect",
+                "next_eventtag": 102,
+                "tag": 101,
+                "time": -1
+            },
+            "trigger": {
+                "name": "sound",
+                "sound": "common/melee/kb_charge_done",
+                "tag": 102,
+                "time": -1
+            },
+            "trigger": {
+                "fx_chargeable": true,
+                "life": -1,
+                "name": "powerup",
+                "remove_on_node_end": true,
+                "tag": 2,
+                "tag_name": "knockback_link",
+                "time": 0,
+                "special_fx": {
+                    "bolt": "Bip01 R Hand",
+                    "effect": "base/hit/hit_knockback_charge",
+                    "fxlevel": 1,
+                    "how_used": "primary",
+                    "never_cycle": true
+                },
+                "special_fx": {
+                    "bolt": "Bip01 L Hand",
+                    "effect": "base/hit/hit_knockback_charge",
+                    "fxlevel": 1,
+                    "how_used": "primary",
+                    "never_cycle": true
+                }
+            },
+            "chain": {
+                "action": "idle",
+                "result": "attackknockback2"
+            },
+            "chain": {
+                "action": "special",
+                "result": "swim_knockback_loop"
+            }
+        },
+        "FightMove": {
+            "animenum": "ea_victim9",
+            "handler": "ch_swim_hold_smash",
+            "lockangles": true,
+            "lockchaining": false,
+            "locktransitionangles": true,
+            "name": "swim_knockback_loop",
+            "noautoaim": true,
+            "powerup_tag": "swimkb",
+            "priority": 3,
+            "trigger": {
+                "loop_type": "update",
+                "name": "sound",
+                "sound": "common/melee/kb_charge_loop",
+                "tag": 10,
+                "time": -1
+            },
+            "chain": {
+                "action": "idle",
+                "result": "attackknockback2"
+            },
+            "chain": {
+                "action": "special",
+                "result": "swim_knockback_loop"
+            }
+        },
+        "FightMove": {
+            "animenum": "ea_victim10",
+            "blendtime": 0.1,
+            "endchaintime": 1,
+            "handler": "ch_swim_charge",
+            "name": "attackknockback2",
+            "powerup_tag": "swimkb",
+            "priority": 5,
+            "startchaintime": 0.8,
+            "turnrate": 0.4,
+            "trigger": {
+                "charge_type": "stop",
+                "name": "charge",
+                "time": 0
+            },
+            "trigger": {
+                "bolt": "Bip01 L Hand",
+                "effect": "base/misc/under_water_stroke",
+                "name": "effect_sound",
+                "sound": "under_water_stroke",
+                "time": 0.1
+            },
+            "trigger": {
+                "bolt": "Bip01 R Hand",
+                "critical": true,
+                "effect": "base/misc/under_water_stroke",
+                "loop_type": "stop",
+                "name": "effect_sound",
+                "sound": "common/melee/kb_charge_loop",
+                "time": 0.1
+            },
+            "trigger": {
+                "bolt": "Bip01 Pelvis",
+                "critical": true,
+                "effect": "base/misc/under_water_stroke",
+                "loop_type": "stop",
+                "name": "effect_sound",
+                "sound": "common/melee/kb_charge",
+                "time": 0.1
+            },
+            "trigger": {
+                "name": "sound",
+                "sound": "common/melee/dmg_knockback",
+                "time": 0.1
+            },
+            "trigger": {
+                "arc": 90,
+                "damage": "4 5",
+                "knockback": 245,
+                "name": "punch",
+                "next_eventtag": 2,
+                "tag": 1,
+                "time": -1,
+                "damagemod": {
+                    "name": "dmgmod_auto_knockback"
+                },
+                "damagemod": {
+                    "name": "dmgmod_no_atk_roll"
+                },
+                "damagemod": {
+                    "name": "dmgmod_ground"
+                }
+            },
+            "trigger": {
+                "critical": true,
+                "name": "powerup",
+                "remove_tag": "knockback_link",
+                "tag": 2,
+                "time": -1
+            },
+            "chain": {
+                "action": "touch",
+                "result": "jumploop"
+            },
+            "chain": {
+                "action": "idle",
+                "result": "jumploop"
+            }
+        },
+        "FightMove": {
+            "animenum": "ea_victim11",
+            "lockspeed": true,
+            "name": "airspin",
+            "chain": {
+                "action": "idle",
+                "result": "airspinloop"
+            }
+        },
+        "FightMove": {
+            "animenum": "ea_victim12",
+            "handler": "ch_air_spin",
+            "lockangles": true,
+            "lockchaining": false,
+            "lockspeed": true,
+            "name": "airspinloop",
+            "priority": "pain",
+            "priority_override": "pain",
+            "sequenced": true,
+            "trigger": {
+                "bolt": "Bip01 Spine2",
+                "life": 0.2,
+                "name": "trail",
+                "time": 0
+            },
+            "chain": {
+                "action": "special",
+                "result": "getuponback"
+            }
+        }
+    }
+}

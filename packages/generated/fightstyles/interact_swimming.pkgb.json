@@ -1,0 +1,13 @@
+{
+    "packagedef": {
+        "texture": {
+            "filename": "textures/bubble"
+        },
+        "effect": {
+            "filename": "base/misc/under_water"
+        },
+        "effect": {
+            "filename": "base/misc/under_water_stroke"
+        }
+    }
+}
