@@ -1,0 +1,1 @@
+1. Single or double jumping doesnt work right in Atlantis, flying characters however still work.
